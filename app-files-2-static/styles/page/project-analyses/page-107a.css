@@ -1,0 +1,14 @@
+/* ### Analyses: Themes: Demographic/Discipline Analysis ### */
+@import url('../../comp/project-analyses/view117b.css');
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+
+@media print {
+
+}

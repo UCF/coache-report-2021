@@ -1,0 +1,94 @@
+div.view116 {
+    /*font-size: 15px;*/
+}
+
+div.view116 table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div.view116 table td {
+    padding: 0;
+}
+
+div.view116 div.chart {
+    position: relative;
+    width: auto; height: auto;
+    /*font-size: 1.2em;*/
+    font-size: 12px;
+}
+
+/* --- Chart ---- */
+
+/* Chart - Results */
+div.view116 div.results {
+    position: relative;
+    z-index: 1;
+    width: auto; height: auto;
+}
+div.view116 div.results table td {
+    padding: 0.5em 0 0.5em 0;
+}
+div.view116 div.results table td.label {
+    text-align: right;
+}
+div.view116 div.results table td.label div {
+    width: auto;
+}
+div.view116 div.results table td.value div { /**/
+    position: relative;
+    width: 100%; height: 18px;
+    background: green;
+}
+div.view116 div.results table td.value div > span {
+    display: block;
+    height: 100%;
+    float: left;
+}
+
+/* Chart - Axis-X */
+div.view116 div.axis_x {
+    position: absolute; top: 0;
+    z-index: 0;
+    width: auto; height: 100%; 
+}
+div.view116 div.axis_x table {
+    width: auto; height: 100%;
+}
+div.view116 div.axis_x table td {
+}
+div.view116 div.axis_x table td div {
+    position: relative; /* because of child span */
+    width: 59px; height: 100%;
+    border-right: solid 1px gray;
+}
+div.view116 div.axis_x table td div span {
+    position: absolute; top: -1em; left: 87%;
+}
+
+/* Chart - Results & Axis-X */
+div.view116 div.chart table td.label div {
+    width: 5em;
+}
+div.view116 div.chart table td.label div > span {
+    padding-right: 0.2em;
+}
+
+
+/* --- Legend ---- */
+
+div.view116 div.legend {
+    font-size: 1.2em;
+}
+div.view116 div.legend ul.list1 {
+    padding-left: 2em;
+    margin: 1em;
+}
+div.view116 div.legend ul.list1 li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+/* Other */
+div.view116 h4 {
+    padding-left: 2em;
+}

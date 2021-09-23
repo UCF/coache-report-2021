@@ -1,0 +1,132 @@
+/* --- View 112: Means --- */
+
+/* --- Chart --- */
+div#view112 div.chart {
+    position: relative; 
+    width: auto; height: auto;
+}
+
+
+/* --- Results --- */
+div#view112 div.chart div.results {
+    position: relative; 
+    width: 100%; height: auto;
+    overflow-x: auto;
+}
+
+/* --- Fixed label --- */
+div#view112 div.chart div#fixedLabel {
+    position: absolute; top: 0; left: 0;
+    background: white;
+    padding-bottom: 4.6em;
+    /*border-bottom: solid 1px gray;*/
+    /**/border-right: solid 1px lightgray;
+}
+
+
+/* --- THead and Values --- */
+
+div#view112 table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div#view112 table td div {
+    font-size: 0.9em;
+    padding: 3px 0;
+}
+
+/* Label */
+/* ..Col 1: item code */
+div#view112 table.thead td.col_id div, 
+div#view112 table.values td.col_id div {
+    width: 80px;
+    padding-left: 3px;
+}
+/* ..Col 2: short name */
+div#view112 table.thead td.col_name div, 
+div#view112 table.values td.col_name div {
+    width: 300px;
+    padding-left: 3px;
+}
+div#view112 tr.row1 td.label,
+div#view112 tr.row2 td.label,
+div#view112 td.col_name {
+    /*border-right: solid 1px lightgray;*/
+} 
+
+/* Cols: results */
+div#view112 table.thead tr.row3 td.ag div,
+div#view112 table.thead tr.row3 td.past_survey div,
+div#view112 table.values td.ag div,
+div#view112 table.values td.past_survey div {
+    width: 50px;
+    text-align: center;
+}
+
+
+/* --- Thead only --- */
+
+div#view112 table.thead td div {
+    font-weight: bold;
+}
+div#view112 table.thead tr.row1 td div,
+div#view112 table.thead tr.row2 td div {
+    text-align: center;
+}
+div#view112 table.thead tr.row1 td div { /* ag head */
+    background: #e6e6e6;
+}
+div#view112 table.thead.bottom { /* thead at bottom */
+    margin-bottom: 1em;
+}
+
+div#view112 table.thead tr.row3 td.e_size div {
+    font-size: 0.7em;
+}
+
+
+/* --- Values only --- */
+
+/* Rows */
+div#view112 table.values tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+div#view112 table.values tr:nth-child(even) {
+    background: #fff;
+}
+
+/* Rows: Bms */
+div#view112 table.values tr.bm {
+    color: crimson;
+}
+/* Rows: Bms */
+div#view112 table.values tr.item {
+}
+/* Rows: Items */
+div#view112 table.values tr.items {
+}
+
+
+/* --- Borders --- */
+
+/* Thead bottom border: Red */
+div#view112 table.thead tr.row3 td {
+    border-bottom: solid 0.13em crimson;
+}
+/* Stats set border: Gray */
+div#view112 table.thead tr.row3 td.ag.sd,
+div#view112 table.values td.ag.sd {
+    border-right: dotted 0.1em silver;
+}
+
+/* AG crimson borders */
+div#view112 table.thead tr.row3 td.peer-5.sd,
+div#view112 table.values td.peer-5.sd {
+    border-right: solid 0.13em crimson;
+}
+div#view112 table.thead tr.row3 td.peer-5.sd:last-child,
+div#view112 table.values td.peer-5.sd:last-child {
+    border-right: none;
+}
+
+

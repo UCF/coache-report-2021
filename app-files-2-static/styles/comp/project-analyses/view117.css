@@ -1,0 +1,114 @@
+/* --- View117: Thematic breakouts --- */
+
+div.view117 {
+    font-size: 15px;
+}
+
+/* -- Chart -- */
+div.view117 div.chart {
+    position: relative; 
+    width: auto; height: auto;
+}
+
+/* -- Results -- */
+div.view117 div.chart div.results {
+    position: relative; 
+    width: 100%; height: auto;
+    overflow-x: auto;
+    padding-bottom: 1em;
+}
+
+/* -- Fixed label -- */
+div.view117 div.chart div.fixedLabel {
+    position: absolute; top: 0; left: 0;
+    background: white;
+    border-right: solid 1px lightgray;
+}
+
+/* -- Thead and Values -- */
+div.view117 table {
+    border-collapse: collapse;
+}
+div.view117 table td {
+}
+div.view117 table td div {
+    padding: 0.1em 0;
+}
+div.view117 table td div > span {
+    font-size: 0.85em;
+}
+/* Names column */
+div.view117 table td:nth-child(1) div {
+    width: 20em;
+    padding-left: 0.2em;
+}
+/* Values columns - including thead */
+div.view117 table.thead tr.row2 td.mean div,
+div.view117 table.thead tr.row2 td.external div,
+div.view117 table.thead tr.row2 td.internal div,
+div.view117 table.values td.mean div,
+div.view117 table.values td.external div,
+div.view117 table.values td.internal div {
+    width: 3.5em;
+    text-align: center;
+}
+/* ..Internal comparison column */
+div.view117 table.thead tr.row2 td.internal.surveys div,
+div.view117 table.values td.internal.surveys div {
+    width: 5em;
+}
+
+/* -- Thead -- */
+/* Legend */
+div.view117 table.thead tr.row1 td div {
+    text-align: center;
+}
+div.view117 table.thead tr.row1 td.internal div span {
+    padding: 0.1em 0.7em;
+}
+/* Table heading */
+div.view117 table.thead tr.row2 td div {
+    /*font-weight: bold;*/
+}
+
+/* -- Values -- */
+div.view117 table.values {
+    margin: 0.5em 0 0em 0;
+}
+div.view117 table.values td.external div,
+div.view117 table.values td.internal div, 
+div.view117 table.values td.surveys div {
+    color: black;
+}
+/* ..External comparison image (triangles) */
+div.view117 table.values td.external div img { 
+    width: 1em; height: 1em;
+}
+
+/* Rows */
+div.view117 table.values tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+div.view117 table.values tr:nth-child(even) {
+    background: #fff;
+}
+/* Bms */
+div.view117 table.values tr.bm {
+    color: crimson;
+    font-weight: normal;
+}
+div.view117 table.values tr.bm td {
+    padding-top: 0.5em; 
+}
+
+/* -- Red borders -- */
+div.view117 table.thead tr.row2 td {
+    border-bottom: solid 0.15em crimson;
+}
+div#view117_ags01 table td:nth-child(14) {
+    border-right: solid 0.15em crimson;
+}
+div#view117_ags02 table td:nth-child(15) {
+    border-right: solid 0.15em crimson;
+}
+

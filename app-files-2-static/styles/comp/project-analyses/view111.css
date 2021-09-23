@@ -1,0 +1,24 @@
+/* View 111: Theme Related Comments */
+
+div#view111 {
+}
+div#view111 > div.body {
+    font-size: 15px;
+}
+div#view111 div.list {
+    margin: 2em 0 0 0;
+    max-width: 66.67em;
+}
+div#view111 div.list ul {
+    margin: 0 0 0 -2em;
+    list-style-type: none;
+}
+div#view111 div.list ul li {
+    padding: 0.8em 0.33em;
+    border-top: dotted 0.1em silver;
+}
+div#view111 div.list ul li span {
+    font-size: 1.1em;
+    font-style: italic;
+}
+

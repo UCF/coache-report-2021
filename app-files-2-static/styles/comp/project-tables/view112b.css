@@ -1,0 +1,164 @@
+/* Table of Theme Units Means */
+
+div.view112b {
+}
+
+/* --- Block.Head --- */
+
+div.view112b > div.head {
+}
+
+
+/* --- Block.Body --- */
+
+div.view112b > div.body {
+    font-size: 10px;
+    position: relative;
+}
+
+
+/* Block > Body > Chart */
+div.view112b > div.body > div.chart {
+    position: relative;
+}
+/* Block > Body > Chart.ChartExport */
+div.view112b > div.body > div.chart.chartExport {
+    position: relative;
+    text-align: right;
+}
+div.view112b > div.body > div.chart.chartExport a {
+    font-size: 1.4em;
+}
+/* Block > Body > Chart.ChartScroll */
+div.view112b > div.body > div.chart.chartScroll {
+    background: #fff;
+    box-shadow: 0 3px 2px #ddd;
+}
+div.view112b > div.body > div.chart.chartScroll > div.results {
+    padding-bottom: 0;
+}
+
+/* Block > Body > Chart.ChartHead */
+div.view112b > div.body > div.chart.chartHead {
+    display: block;
+    position: absolute; top: 0; left: 0; right: 0;
+    z-index: -1;
+}
+div.view112b > div.body > div.chart.chartHead > div.results {
+    padding-bottom: 1em;
+}
+
+/* Block > Body > Chart */
+div.view112b div.body div.chart div.results {
+    position: relative;
+    width: 100%; height: auto;
+    overflow-x: auto;
+    padding-bottom: 2em;
+}
+div.view112b div.body div.chart div.fixedLabel {
+    position: absolute; top: 0; left: 0;
+    width: auto; height: auto;
+    background: white;
+    box-shadow: 3px 0 2px #ddd;
+}
+div.view112b div.body div.chart div.results,
+div.view112b div.body div.chart div.fixedLabel {
+}
+div.view112b div.body div.chart table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.view112b div.body div.chart table tr td div {
+    padding: 0.4em 0.4em;
+}
+div.view112b div.body div.chart table tr td div > span {
+    font-size: 1.4em;
+}
+
+/* Block.Body.Chart.Head */
+div.view112b div.body div.chart table tr.head {
+}
+div.view112b div.body div.chart table tr.head:first-child td div {
+    padding-top: 1.5em;
+}
+div.view112b div.body div.chart table tr.head.row1 {
+    border-bottom: solid 2px crimson;
+}
+
+/* Block.Body.Chart.Body */
+div.view112b div.body div.chart table tr.body {
+}
+div.view112b div.body div.chart table tr.body.bm {
+    color: crimson;
+}
+div.view112b div.body div.chart table tr.body:nth-child(odd) {
+    background: #e9e9e9;
+}
+div.view112b div.body div.chart table tr.body.overall td div {
+    font-weight: bold;
+}
+
+/* Block.Body.Chart.Label */
+div.view112b div.body div.chart table td.label {
+}
+div.view112b div.body div.chart table td.label div {
+}
+div.view112b div.body div.chart table td.label div span.va_super {
+    font-size: 0.6em;
+    vertical-align: super;
+}
+div.view112b div.body div.chart table tr.head.row1 td.label.unit_num div,
+div.view112b div.body div.chart table tr.body td.label.unit_num div {
+    width: 6em;
+}
+div.view112b div.body div.chart table tr.head.row1 td.label.unit_name div,
+div.view112b div.body div.chart table tr.body td.label.unit_name div {
+    width: 33em;
+}
+
+/* Block.Body.Chart.Value */
+div.view112b div.body div.chart table td.value {
+}
+div.view112b div.body div.chart table td.value div {
+    text-align: center;
+}
+div.view112b div.body div.chart table td.value.mean {
+    border-left: dotted 1px silver;
+}
+div.view112b div.body div.chart table td.value.inst.mean {
+    border-left: solid 2px crimson;
+}
+div.view112b div.body div.chart table tr.head.row1 td.value div,
+div.view112b div.body div.chart table tr.body td.value div {
+    width: 5em;
+}
+
+/* Block.Body.Chart.Head.Span */
+div.view112b div.body div.chart table tr.head td.span div {
+    text-align: center;
+}
+
+/* Block.Body.Chart.Head.Label */
+
+/* Block.Body.Chart.Head.Value */
+div.view112b div.body div.chart table tr.head.row2 td.value.inst {
+    border-left: solid 2px crimson;
+}
+
+/* Block.Body.Chart.Head.Span */
+div.view112b div.body div.chart table tr.head td.span div {
+    text-align: center;
+}
+
+/* Block.Body.Chart.Body.Span */
+
+/* Block.Body.Chart.Body.Label */
+
+
+/* Block.Body.Chart.Body.Value */
+
+
+
+

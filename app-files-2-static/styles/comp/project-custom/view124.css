@@ -1,0 +1,47 @@
+/* --- View 124:  --- */
+
+div.view124 {
+    font-size: 15px;
+    max-width: 66.6em;
+    /*border: dotted gray 1px;*/
+}
+
+/* --- Head --- */
+
+div.view124 div.head {
+}
+
+/* --- Body --- */
+
+div.view124 div.body {
+    position: relative; 
+    width: auto; height: auto;
+}
+
+div.view124 div.body ul {
+    margin-top: 0;
+}
+
+div.view124 div.body ul.questset {
+    /*padding: 0;*/
+}
+
+div.view124 div.body ul li {
+}
+
+div.view124 div.body ul li > span {
+
+}
+
+div.view124 div.body ul li div.title {
+    margin-top: 1em;
+}
+
+div.view124 div.body ul li.quest {
+    margin-top: 1em; margin-bottom: 2em;
+}
+
+div.view124 div.body ul li.item,
+div.view124 div.body ul li.ro {
+    padding: 0.2em 0;
+}

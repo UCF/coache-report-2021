@@ -1,0 +1,178 @@
+/* View 101b: Dashboard of Benchmarks */
+
+
+div.view101b {
+}
+
+/* --- Block.Head --- */
+
+div.view101b > div.head {
+}
+
+/* --- Block.Body --- */
+
+div.view101b > div.body {
+    font-size: 10px;
+    position: relative;
+}
+
+
+/* Block > Body > Chart */
+div.view101b > div.body > div.chart {
+    position: relative;
+}
+/* Block > Body > Chart.ChartExport */
+div.view101b > div.body > div.chart.chartExport {
+    position: relative;
+    text-align: right;
+}
+div.view101b > div.body > div.chart.chartExport a {
+    font-size: 1.4em;
+}
+/* Block > Body > Chart.ChartScroll */
+div.view101b > div.body > div.chart.chartScroll {
+    background: #fff;
+    box-shadow: 0 3px 2px #ddd;
+}
+div.view101b > div.body > div.chart.chartScroll > div.results {
+    padding-bottom: 0;
+}
+
+/* Block > Body > Chart.ChartHead */
+div.view101b > div.body > div.chart.chartHead {
+    display: block;
+    position: absolute; top: 0; left: 0; right: 0;
+    z-index: -1;
+}
+div.view101b > div.body > div.chart.chartHead > div.results {
+    padding-bottom: 1em;
+}
+
+/* Block > Body > Chart (children) */
+div.view101b div.body div.chart div.results {
+    position: relative;
+    width: 100%; height: auto;
+    overflow-x: auto;
+    padding-bottom: 2em;
+}
+div.view101b div.body div.chart div.fixedLabel {
+    position: absolute; top: 0; left: 0;
+    width: auto; height: auto;
+    background: white;
+    box-shadow: 3px 0 2px #ddd;
+}
+div.view101b div.body div.chart div.results,
+div.view101b div.body div.chart div.fixedLabel {
+}
+div.view101b div.body div.chart table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.view101b div.body div.chart table tr td div {
+    padding: 0.4em 0.4em;
+}
+div.view101b div.body div.chart table tr td div > span {
+    font-size: 1.4em;
+}
+
+/* Block.Body.Chart.Head */
+div.view101b div.body div.chart table tr.head {
+}
+div.view101b div.body div.chart table tr.head td div {
+}
+div.view101b div.body div.chart table tr.head:first-child td div {
+    height: 4.5em;
+    padding-top: 1.5em;
+}
+div.view101b div.body div.chart table tr.head.row1 {
+    border-bottom: solid 2px crimson;
+}
+div.view101b div.body div.chart table tr.head.row1 td div {
+    height: 4.5em;
+}
+div.view101b div.body div.chart table tr.head span.arrow {
+    font-size: 0.8em;
+}
+
+/* Block.Body.Chart.Body */
+div.view101b div.body div.chart table tr.body {
+}
+div.view101b div.body div.chart table tr.body:nth-child(odd) {
+    background: #e9e9e9;
+}
+div.view101b div.body div.chart table tr.body td div {
+    line-height: 1.8em;
+    vertical-align: bottom;
+    padding-top: 0.4em;
+    padding-bottom: 0.1em;
+}
+div.view101b div.body div.chart table tr.body.bm td div {
+    padding-top: 0.8em;
+}
+div.view101b div.body div.chart table tr.body.bm td div span {
+    color: crimson;
+    font-weight: normal;
+}
+
+/* Block.Body.Chart.Label */
+div.view101b div.body div.chart table td.label {
+}
+div.view101b div.body div.chart table td.label div {
+    width: 30em;
+}
+
+/* Block.Body.Chart.Value */
+div.view101b div.body div.chart table td.value {
+}
+div.view101b div.body div.chart table td.value div {
+    text-align: center;
+}
+div.view101b div.body div.chart table tr.head.row1 td.value.external div,
+div.view101b div.body div.chart table tr.body td.value.external div {
+    width: 4.5em;
+}
+div.view101b div.body div.chart table tr.head.row1 td.value.internal div,
+div.view101b div.body div.chart table tr.body td.value.internal div {
+    width: 5.5em;
+}
+div.view101b div.body div.chart table tr.head.row1 td.value.internal.surveys div,
+div.view101b div.body div.chart table tr.body td.value.internal.surveys div {
+    width: 7.5em;
+}
+div.view101b.ags01 div.body div.chart table tr.head.row1 td:nth-child(14),
+div.view101b.ags02 div.body div.chart table tr.head.row1 td:nth-child(15) {
+    border-right: solid 0.2em crimson;
+}
+
+/* Block.Body.Chart.Head.Span */
+div.view101b div.body div.chart table tr.head td.span div {
+    text-align: center;
+}
+
+/* Block.Body.Chart.Head.Label */
+
+/* Block.Body.Chart.Head.Value */
+div.view101b div.body div.chart table tr.head.row2 td.value.internal div span {
+    padding: 0.1em 0.7em;
+}
+
+/* Block.Body.Chart.Body.Span */
+
+/* Block.Body.Chart.Body.Label */
+
+/* Block.Body.Chart.Body.Value */
+div.view101b div.body div.chart table tr.body td.value {
+}
+div.view101b div.body div.chart table tr.body td.value div span {
+    font-size: 1.3em;
+}
+div.view101b div.body div.chart table tr.body td.value.external div img {
+    width: 1em; height: 1em;
+    vertical-align: text-top;
+}
+div.view101b div.body div.chart table tr.body.bm td.value.external div span,
+div.view101b div.body div.chart table tr.body.bm td.value.internal div span {
+    color: black;
+}

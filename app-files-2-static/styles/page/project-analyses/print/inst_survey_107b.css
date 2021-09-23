@@ -1,0 +1,21 @@
+
+h1 {
+    font-size: 35px;
+}
+div.menu {
+    display: none;
+}
+
+div.view {
+    page-break-inside: avoid !important;
+}
+div.view > h3 {
+}
+
+
+/* --- View 116 --- */
+div.view116 p.intro {
+    padding-bottom: 1.33em;
+}
+
+

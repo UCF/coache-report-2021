@@ -1,0 +1,10 @@
+/* View118: Comparison Institutions */
+
+div#viewCohort ul li {
+  margin: 0 0 5px 0;
+}
+div#viewCohort em {
+  /*color: crimson;*/
+  font-weight: normal;
+  color: #a51c30;
+}

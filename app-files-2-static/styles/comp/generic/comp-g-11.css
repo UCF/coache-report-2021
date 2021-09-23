@@ -1,0 +1,47 @@
+/* List of Projects Links */
+
+div.comp_g11 {
+  position: relative;
+  width: auto; height: auto;
+}
+div.comp_g11 > div {
+    text-align: center;
+}
+div.comp_g11 div.head {
+}
+div.comp_g11 div.head h3 > span {
+  font-size: 24px;
+}
+div.comp_g11 div.head h3 > span span {
+  font-size: 18px;
+  color: #565656;
+}
+div.comp_g11 div.body {
+}
+div.comp_g11 div.body ul {
+    padding: 0;
+    list-style: none;
+}
+div.comp_g11 div.body li {
+}
+div.comp_g11 div.body li a {
+    display: inline-block;
+    padding: 5px 0 5px;
+    text-decoration: none;
+}
+div.comp_g11 div.body li a span {
+    font-size: 18px;
+    font-weight: lighter;
+    /*color: #ac1b33;*/
+}
+div.comp_g11.period div.body li a span {
+  font-size: 18px;
+}
+div.comp_g11.group div.body li a span {
+  font-size: 24px;
+}
+div.comp_g11 div.body li a:hover {
+}
+div.comp_g11 div.body li a:hover span {
+    color: #000;
+}

@@ -1,0 +1,16 @@
+/* Home */
+@import url('../comp/home/comp_a11.css');
+@import url('../comp/home/comp_a12.css');
+@import url('../comp/generic/comp-g-11.css');
+
+
+div.compSet {
+}
+div.compSet > div {
+  margin-bottom: 45px;
+}
+
+
+@media print {
+
+}

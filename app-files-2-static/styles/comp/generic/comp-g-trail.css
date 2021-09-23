@@ -1,0 +1,77 @@
+/* Trail */
+
+div.comp-g-trail {
+    position: relative;
+    width: auto; height: auto;
+    border-bottom: solid 1px #ddd;
+    border-top: solid 1px #ddd;
+    padding-top: 10px;
+}
+div.comp-g-trail ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div.comp-g-trail li.parent {
+    position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 0.3em;
+}
+div.comp-g-trail li.parent.section {
+}
+div.comp-g-trail li.parent > a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 3px 15px 3px;
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+}
+div.comp-g-trail li.parent.separator > a {
+    color: gray;
+}
+div.comp-g-trail li.parent.separator > a span {
+}
+div.comp-g-trail li.parent > ul {
+    display: none;
+    position: absolute;
+    min-width: 120%; width: max-content; /* 225px */
+    max-height: 450px;
+    padding: 0 3px;
+    background: #fff;
+    border-left: solid 1px #dcdcdc;
+    border-bottom: solid 1px #dcdcdc;
+    border-right: solid 1px #dcdcdc;
+    overflow: auto;
+}
+div.comp-g-trail li.parent.point:hover > a {
+    border-bottom-color: #e6e6e6;
+}
+div.comp-g-trail li.parent.point:hover > ul {
+    display: block;
+    z-index: 10;
+}
+div.comp-g-trail li.parent.point:hover > ul li {
+    border-bottom: solid 1px #dcdcdc;
+}
+div.comp-g-trail li.parent.point:hover > ul li:last-child {
+    border-bottom: none;
+}
+div.comp-g-trail li.parent.point:hover > ul li a {
+    padding: 0.5em 0.2em;
+    display: block;
+    text-decoration: none;
+}
+div.comp-g-trail li.parent.point:hover > ul li a.in-path {
+    color: black;
+}
+div.comp-g-trail li.parent.point:hover > ul li a.off-path {
+}
+div.comp-g-trail li.parent.point > a:hover,
+div.comp-g-trail li.parent.point:hover > ul li a.off-path:hover {
+    color: black;
+}
+div.comp-g-trail li.parent.point.final > a {
+    color: black;
+}

@@ -1,0 +1,59 @@
+/* --- View 109 --- */
+
+/**/
+div#view109 {
+    width: auto; height: auto;
+    font-size: 15px;
+}
+
+div#view109 h3 {
+    margin: 1em 0 0 0;
+}
+
+div#view109 div.legend,
+div#view109 div.list {
+    display: inline-block;
+    vertical-align: top; /* goes with display inline-block */
+}
+
+/* -- Legend -- */
+div#view109 div.legend {
+    /*display: none;*/
+    width: 22em; height: auto;
+    margin: 1em 1em 0 0;
+    padding: 0.67em 0.67em;
+    background: #f2f2f2;
+}
+div#view109 div.legend h4 {
+    margin: 0 0 0 0;
+}
+div#view109 div.legend ul {
+    margin: 0.67em 0 0 -2em;
+    list-style-type: none;
+}
+div#view109 div.legend ul li {
+    padding: 0.13em 0 0.13em 0;
+}
+
+/* -- List -- */
+div#view109 div.list {
+    width: 53.33em; height: auto;
+    /*background: yellow;*/
+}
+div#view109 div.list p {
+    font-style: italic;
+}
+div#view109 div.list ul {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+div#view109 div.list ul li {
+    padding: 0.67em 0.33em;
+    border-top: dotted 0.1em silver;
+}
+
+div#view109 div.anchor {
+    clear: both;
+}
+
+

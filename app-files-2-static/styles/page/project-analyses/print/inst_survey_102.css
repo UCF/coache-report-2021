@@ -1,0 +1,19 @@
+
+div#view107 {
+    page-break-inside: avoid;
+}
+
+div#view107 div.chart, 
+div#view107 div.legend {
+    font-size: 12px;
+}
+
+div#view107 div.chart div.axis_y div.y {
+    border-top: solid 1px silver;
+}
+
+/* X-axis labels */
+div#view107 div.chart table.axis_x td div {
+    
+}
+

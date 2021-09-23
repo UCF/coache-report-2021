@@ -1,0 +1,14 @@
+/* Guide Video */
+
+div.comp-g-video {
+    position: relative;
+    width: 100%; height: auto;
+}
+div.comp-g-video iframe {
+    display: block;
+    margin: auto;
+    /*width: 95%;*/
+    width: 100%; height: 450px;
+    border: solid 2px #000;
+}
+

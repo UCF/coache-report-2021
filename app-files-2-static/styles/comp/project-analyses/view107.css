@@ -1,0 +1,163 @@
+/* View 107: Benchmarks at a Glance */
+
+div#view107 {
+    position: relative;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+div#view107 > div.body {
+    font-size: 15px;
+    position: relative;
+}
+
+/* -- Chart and Legend -- */
+div#view107 div.chart,
+div#view107 div.legend {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* -- Legend -- */
+div#view107 div.legend {
+    width: 8em;
+}
+
+
+/* -- Chart -- */
+div#view107 div.chart {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding-bottom: 4em;
+}
+
+
+/* -- Values and X-axis -- */
+div#view107 div.chart > div.results {
+    margin: 0 0 0 3.5em;
+    padding-left: 0.7em;
+    border-left: dotted 1px gray;
+}
+div#view107 div.chart table.values, 
+div#view107 div.chart table.axis_x {
+    border-collapse: collapse;
+}
+div#view107 div.chart table.values td, 
+div#view107 div.chart table.axis_x td {
+    width: 3em;
+    padding: 0 0;
+}
+div#view107 div.chart table.values td div, 
+div#view107 div.chart table.axis_x td div {
+    padding: 0 0;
+}
+
+
+/* -- Values --- */
+
+div#view107 div.chart table.values {
+    position: relative;
+}
+
+/* Values rows */
+div#view107 div.chart table.values tr {
+}
+
+/* Values cells */
+div#view107 div.chart table.values td {
+    height: 40em;
+}
+/* Values cells - inner container */
+div#view107 div.chart table.values td div.bm {
+    position: relative;
+    height: 100%; width: 100%;
+    padding: 0 0;
+}
+/* Symbols */
+div#view107 div.chart table.values td div.bm span {
+    position: absolute;
+}
+div#view107 div.chart table.values td div.bm span.inst,
+div#view107 div.chart table.values td div.bm span.inst_ps,
+div#view107 div.chart table.values td div.bm span.peers {
+    /*left: 40%;*/
+}
+div#view107 div.chart table.values td div.bm span.inst { /* Inst */
+    z-index: 5;
+    left: 37%; /*20%*/
+    color: black;
+}
+div#view107 div.chart table.values td div.bm span.inst > b {
+    font-size: 1em;
+}
+div#view107 div.chart table.values td div.bm span.inst_ps { /* Inst-PS */
+    z-index: 4;
+    left: 10%;
+    display: block;
+    width: 80%; height: 6px;
+    border-top: solid 2px black;
+    opacity: 0.7;
+}
+div#view107 div.chart table.values td div.bm span.peers { /* Peers */
+    z-index: 3;
+    left: 42%; /*55%*/
+    color: black;
+    opacity: 0.8;
+}
+div#view107 div.chart table.values td div.bm span.peers > b {
+}
+div#view107 div.chart table.values td div.bm span.chms { /* Chms */
+    z-index: 2;
+    display: block;
+    width: 80%; height: 6px;
+    left: 10%;
+    opacity: 0.7;
+}
+div#view107 div.chart table.values td div.bm:hover  {
+    background: #f2f2f2;
+}
+
+/* -- X axis -- */
+
+/* Table */
+div#view107 div.chart table.axis_x {
+    position: relative; top: -7.47em;
+    background: none;
+}
+/* Cell - bm */
+div#view107 div.chart table.axis_x td {
+    position: relative;
+    height: 8em;
+}
+div#view107 div.chart table.axis_x td div {
+    position: absolute; top: -3em; left: 4.4em; /*left: -40px;*/
+    width: 0.67em; height: 100%;
+    direction: rtl; /*direction: ltr;*/
+    transform: rotate(270deg); /*transform: rotate(90deg);*/
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* -- Y axis -- */
+
+/* Block */
+div#view107 div.chart div.axis_y {
+    z-index: 1;
+    width: 97%; height: auto;
+    position: absolute; top: 0; left: 2.67em;
+
+}
+div#view107 div.chart div.axis_y div.y {
+    /* 59px width + 1px border = 60px for 1 point */
+    width: 100%; height: 59px;
+    border-top: dotted 1px gray;
+    position: relative;
+}
+div#view107 div.chart div.axis_y div.y span {
+    position: absolute; top: -10px; left: -22px;
+}
+
+
+
+
+

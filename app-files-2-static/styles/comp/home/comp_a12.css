@@ -1,0 +1,61 @@
+/**/
+
+div.comp_a12 {
+  position: relative;
+  width: auto; height: auto;
+}
+div.comp_a12 > div {
+    text-align: center;
+}
+div.comp_a12 div.head {
+}
+div.comp_a12 div.body {
+}
+div.comp_a12 div.body ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+div.comp_a12 div.body li {
+}
+div.comp_a12 div.body li a {
+    display: inline-block;
+    padding: 15px 0 15px;
+    text-decoration: none;
+}
+div.comp_a12 div.body li a span {
+    font-size: 20px;
+    font-weight: lighter;
+    /*color: #ac1b33;*/
+}
+div.comp_a12 div.body li a:hover {
+}
+div.comp_a12 div.body li a:hover span {
+    color: #000;
+}
+div.comp_a12 div.control {
+  margin-top: 20px;
+}
+div.comp_a12 div.control > div {
+  display: inline-block;
+  padding-left: 10px;
+  border: 1px solid #ddd;
+  width: 50%;
+  text-align: left;
+}
+div.comp_a12 div.control span.icon {
+  font-size: 30px;
+  vertical-align: -30%;
+  color: gray;
+}
+div.comp_a12 div.control input {
+  font-size: 18px;
+  width: 80%;
+  padding: 12px 10px 12px 10px;
+  border: none;
+  outline: none;
+  color: #565656;
+}
+div.comp_a12 div.control input:focus {
+  outline: none;
+}

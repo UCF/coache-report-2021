@@ -1,0 +1,80 @@
+
+h1 {
+    font-size: 35px;
+}
+div.menu {
+    display: none;
+}
+
+div.view {
+    page-break-inside: avoid !important;
+}
+div.view > h3 {
+}
+
+
+/* --- View117b --- */
+div.view117b {
+}
+div.view117b h3 {
+}
+
+div.view117b div.chart {
+}
+
+div.view117b div.chart.chartScroll {
+    display: none !important;
+}
+div.view117b div.chart.chartHead {
+    display: none !important;
+}
+div.view117b div.chart.chartCore div.results {
+    overflow: visible !important;
+}
+div.view117b div.chart.chartCore div.fixedLabel {
+    display: none !important;
+}
+
+div.view117b_ags01 {
+    font-size: 9px !important;
+}
+div.view117b_ags02 {
+    font-size: 7px !important;
+}
+
+
+
+/* ---View 114 --- **/
+
+div.view114b {
+}
+div.view114b div.chart.chartScroll {
+    display: none !important;
+}
+div.view114b div.chart.chartHead {
+    display: none !important;
+}
+div.view114b div.chart.chartCore div.results {
+    overflow: visible !important;
+}
+div.view114b div.chart.chartCore div.fixedLabel {
+    display: none !important;
+}
+/* Ag columns */
+div.view114b div.chart td.tenured,
+div.view114b div.chart td.full,
+div.view114b div.chart td.assoc,
+div.view114b div.chart td.men,
+div.view114b div.chart td.white,
+div.view114b div.chart td.foc/**/ {
+    display: none;
+}
+
+
+div.view114b_Q235 {
+    page-break-before: auto;
+}
+div.view114b_Q260 {
+    page-break-before: always !important;
+}
+

@@ -1,0 +1,14 @@
+/*  Project - Analyses - Benchmarks - At a glance - [Subgroup] */
+@import url('../../comp/project-analyses/view107.css');
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+
+@media print {
+
+}

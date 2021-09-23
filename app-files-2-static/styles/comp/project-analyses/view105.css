@@ -1,0 +1,112 @@
+/* --- View 105 --- */
+
+div#view105 {
+    font-size: 15px;
+    position: relative;
+}
+
+/* --- Chart --- */
+div#view105 div.chart {
+    position: relative;
+    width: auto; height: auto;
+}
+
+/* --- Results --- */
+div#view105 div.chart div.results {
+    position: relative; 
+    width: 100%; height: auto;
+    overflow-x: auto;
+    padding-bottom: 1em;
+}
+
+/* --- Fixed label --- */
+div#view105 div.chart div.fixedLabel {
+    position: absolute; top: 0em; left: 0em;
+    background: white;
+    border-right: solid 1px lightgray;
+}
+
+
+/* --- THead and Values --- */
+
+div#view105 table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div#view105 table td div {
+    padding: 0.2em 0;
+}
+div#view105 table td div > span {
+    font-size: 0.9em;
+}
+
+/* Label */
+
+/* Col 2: short name */
+div#view105 td.label {
+} 
+div#view105 table.thead td.label div, 
+div#view105 table.values td.label div {
+    width: 20em;
+    padding-left: 0.2em;
+}
+
+/* Cols: results */
+div#view105 table.thead tr.row2 td.ag div,
+div#view105 table.values td.ag div {
+    width: 3.33em;
+    text-align: center;
+}
+
+
+/* --- Thead only --- */
+
+div#view105 table.thead td div {
+    font-weight: normal;
+}
+div#view105 table.thead tr.row1 td div {
+    text-align: center;
+}
+/*
+div#view105 table.thead tr.row1 td div {  ag head 
+    background: #e6e6e6;
+}
+*/
+
+
+/* --- Values only --- */
+
+div#view105 table.values {
+    margin: 0.5em 0 0em 0;
+}
+
+/* Rows */
+div#view105 table.values tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+div#view105 table.values tr:nth-child(even) {
+    background: #fff;
+}
+
+div#view105 table.values td.ag div {
+    /*color: gray;*/
+}
+
+
+/* --- Borders --- */
+
+/* Thead bottom border: Red */
+div#view105 table.thead tr.row2 td {
+    border-bottom: solid 0.13em crimson;
+}
+
+/* AG crimson borders */
+div#view105 table.thead tr.row2 td.chms,
+div#view105 table.values td.chms {
+    border-right: solid 0.13em crimson;
+}
+div#view105 table.thead tr.row2 td.chms:last-child,
+div#view105 table.values td.chms:last-child {
+    border-right: none;
+}
+

@@ -1,0 +1,39 @@
+/**/
+
+div.topmenu {
+    min-height: 50px;
+    background: #e9e9e9;
+}
+
+div.topmenu ul {
+    padding: 1em 1em 1em 1em;
+    margin: 0 0 0 0;
+    /*text-align: center;*/
+}
+div.topmenu li {
+    display: inline-block;
+    list-style-type: none;
+}
+div.topmenu li a span {
+    font-size: 0.9em;
+}
+div.topmenu li.point {
+    padding: 0.3em 0.3em;
+}
+div.topmenu li.point a {
+    text-decoration: none;
+}
+div.topmenu li.point.self a {
+    font-weight: normal;
+    color: gray;
+}
+div.topmenu li.point.sibling a {
+    color: #ac1b33;
+}
+div.topmenu li.point.sibling a:hover {
+    color: black;
+}
+div.topmenu li.separator span {
+    font-size: 0.9em;
+    color: gray;
+}

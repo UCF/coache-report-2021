@@ -1,0 +1,115 @@
+/* view107b - benchmarks at glance - vertical layout */
+
+div.view107b {
+    font-size: 10px;
+    position: relative;
+}
+
+div.view107b div.chart {
+
+}
+
+/* General */
+div.view107b div.chart table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div.view107b div.chart div.results table {
+
+}
+div.view107b div.chart div.results table td {
+    padding: 0;
+}
+div.view107b div.chart div.results table td div {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+}
+
+/* Head */
+div.view107b div.chart div.results table tr.head td div {
+
+}
+
+/* Body */
+div.view107b div.chart div.results table tr.body:hover { /*nth-child(even)*/
+    background: #eee;
+}
+div.view107b div.chart div.results table tr.body td div {
+    height: 2.5em;
+}
+
+/* Label */
+div.view107b div.chart div.results table td.label div {
+    width: 23em;
+    padding: 0.3em 0.3em;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+div.view107b div.chart div.results table td.label div > span {
+    font-size: 1.2em;
+}
+
+/* Values */
+div.view107b div.chart div.results table td.values div {
+    position: relative;
+    width: 3.9em;
+    border-left: solid 1px #ccc;
+}
+
+/* Head.Values */
+
+/* Body.Values */
+div.view107b div.chart div.results table tr.body td.values div > span {
+    position: absolute;
+    font-size: 1em;
+    font-family: serif;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.inst {
+    top: 0.7em;
+    z-index: 4;
+    color: black;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.inst_ps {
+    top: 0.0em;
+    z-index: 3;
+    color: black;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.peers {
+    top: 0.6em;
+    z-index: 2;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.chms {
+    top: 0.0em;
+    z-index: 1;
+}
+div.view107b div.chart div.results table tr.body td.values div > span b {
+    font-weight: 100;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.inst b {
+    font-size: 1.4em;
+    opacity: 1.0;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.inst_ps b {
+    font-size: 2.8em;
+    /*font-size: 2.5em;*/
+    opacity: 0.7;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.peers b {
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+div.view107b div.chart div.results table tr.body td.values div > span.chms b {
+    font-size: 2.8em;
+    /*font-size: 2.5em;*/
+    opacity: 0.6;
+}
+
+
+@media print {
+
+    div.view107b div.chart div.results table tr.body td.values div > span.inst {
+        color: black;
+    }
+
+}

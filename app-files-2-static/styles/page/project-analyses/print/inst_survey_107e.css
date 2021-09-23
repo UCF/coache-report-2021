@@ -1,0 +1,28 @@
+h1 {
+    font-size: 35px;
+}
+div.menu {
+    display: none;
+}
+
+/* --- ViewA --- */
+div#pg07e_viewText1 {
+    page-break-before: auto; 
+}
+div#pg07e_viewText1 > h3 {
+    page-break-before: auto; /* don't break for first view */
+}
+div#pg07e_viewText1 div.include {
+    font-size: 15px;
+}
+div#pg07e_viewText1 div.include > div {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+}
+div#pg07e_viewText1 div.include > div h3:nth-child(1),
+div#pg07e_viewText1 div.include > div h4:nth-child(1) {
+    margin-top: 0;
+}
+
+

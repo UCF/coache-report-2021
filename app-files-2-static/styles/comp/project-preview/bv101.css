@@ -1,0 +1,25 @@
+/* bv101 */
+
+div.bv101 {
+
+}
+
+div.bv101 div.body > div {
+    display: inline-block;
+    vertical-align: top;
+}
+div.bv101 div.body > div.left {
+    width: 48%;
+    padding-right: 3%;
+}
+div.bv101 div.body > div.right {
+    width: 48%;
+}
+div.bv101 div.body ul li {
+    margin-bottom: 0.2em;
+}
+div.bv101 div.body ul li span {
+    font-style: italic;
+}
+
+

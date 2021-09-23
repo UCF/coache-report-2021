@@ -1,0 +1,43 @@
+/* Guides - [Page] */
+
+div.comp-guides {
+  max-width: 1000px;
+}
+div.comp-guides > div.head {
+  display: none;
+}
+div.comp-guides > div.body li {
+  margin-bottom: 5px;
+}
+div.comp-guides > div.body h4 {
+}
+div.comp-guides > div.body h4:first-child {
+  margin-top: 0;
+}
+div.comp-guides > div.body h5 {
+  text-decoration: underline;
+}
+div.comp-guides > div.body p,
+div.comp-guides > div.body ul {
+  font-size: 16px;
+}
+
+/**/
+div.comp-guides[data-page-id="guides/partner-impact"] > div.body li {
+  margin-bottom: 10px;
+}
+
+/**/
+div.comp-guides[data-page-id="guides/videos"] {
+}
+div.comp-guides[data-page-id="guides/videos"] h4 {
+  /*margin-top: 40px;*/
+  margin-bottom: 20px;
+}
+div.comp-guides[data-page-id="guides/videos"] iframe {
+  display: block;
+  width: 80%; height: 400px;
+  max-width: 800px;
+  border: solid 2px #000;
+  margin-bottom: 40px;
+}

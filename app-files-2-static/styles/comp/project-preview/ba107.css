@@ -1,0 +1,55 @@
+/* ba107 */
+
+div.ba107 {
+
+}
+
+div.ba107 div.body {
+}
+
+div.ba107 div.body > div {
+    display: inline-block;
+    vertical-align: middle;
+    /*float: left;*/
+}
+
+div.ba107 div.body div.bar {
+    width: 5em; height: 80em;
+    margin-left: 3em;
+    background: #213153;
+}
+div.ba107 div.body div.text {
+    width: 55em;
+    margin-left: 5em;
+    text-align: left;
+}
+div.ba107 div.body div.text p {
+    margin-bottom: 5em;
+}
+div.ba107 div.body div.text p.title span {
+}
+div.ba107 div.body div.text p.logo img {
+    width: 80%;
+}
+div.ba107 div.body div.text p.title.inst {
+    line-height: 4em;
+}
+div.ba107 div.body div.text p.title.inst span {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: serif, "Garamond";
+    color: #213153;
+}
+
+div.ba107 div.body div.text p.title.survey {
+    margin-bottom: 2em;
+}
+div.ba107 div.body div.text p.title.survey span {
+    font-size: 2em;
+}
+div.ba107 div.body div.text p.title.survey.survey_l1 span {
+    font-family: sans-serif, "ITC Franklin Gothic Std Med"; /**/
+}
+div.ba107 div.body div.text p.title.survey.survey_l2 span {
+    font-family: sans-serif,"ITC Franklin Gothic Std Italic"; /**/
+}

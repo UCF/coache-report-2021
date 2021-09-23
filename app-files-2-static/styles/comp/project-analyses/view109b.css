@@ -1,0 +1,89 @@
+/* --- View 109 --- */
+
+/**/
+div.view109b {
+    width: auto; height: auto;
+    max-width: 60em; min-height: 40em;
+}
+
+/* Block > Head */
+div.view109b > div.head h3 {
+    margin: 1em 0 1em 0;
+}
+
+div.view109b > div.body {
+    font-size: 15px;
+    position: relative;
+}
+
+
+/* Block > Control */
+div.view109b > div.control {
+    /*display: none;*/
+    width: 22em; height: auto;
+    margin: 1em 1em 0 0;
+    padding: 0.67em 0.67em;
+    background: #f2f2f2;
+    max-height: 30em;
+    overflow-y: auto;
+    box-shadow: 1px 1px 2px 1px gray;
+}
+div.view109b > div.control h4 {
+    margin: 0 0 0 0;
+}
+div.view109b > div.control ul {
+    margin: 0.67em 0 0 -2em;
+    list-style-type: none;
+}
+div.view109b > div.control ul li {
+    padding: 0.13em 0 0.13em 0;
+}
+
+/* Block > Tbar */
+div.view109b > div.tbar {
+    position: relative;
+    margin: 0 0 1em 0;
+    padding: 0.2em 0.2em;
+    text-align: right;
+}
+div.view109b > div.tbar > div.link {
+    display: inline-block;
+    padding: 0.4em 1em;
+    background: #e9e9e9;
+}
+div.view109b > div.tbar > div.link:hover {
+    color: gray;
+    cursor: pointer;
+}
+div.view109b > div.tbar > div.link > span {
+    font-size: 1.1em;
+    color: black;
+}
+div.view109b > div.tbar > div.link > span b {
+    font-weight: normal;
+    color: gray;
+}
+
+
+/* Block > Body */
+div.view109b > div.body > div.chart.chartCore > div.list {
+    width: 53.33em; height: auto;
+    /*background: yellow;*/
+}
+div.view109b > div.body > div.chart.chartCore > div.list p {
+    font-style: italic;
+}
+div.view109b > div.body > div.chart.chartCore > div.list ul {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+div.view109b > div.body > div.chart.chartCore > div.list ul li {
+    padding: 0.67em 0.33em;
+    border-top: dotted 1px silver;
+}
+
+div.view109b > div.body > div.chart.chartCore > div.anchor {
+    clear: both;
+}
+
+

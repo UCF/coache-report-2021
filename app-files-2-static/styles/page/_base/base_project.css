@@ -1,0 +1,88 @@
+/**/
+@import url('../../util/util-modal.css');
+@import url('../../util/util-table.css');
+@import url('../../comp/generic/comp-g-trail.css');
+@import url('../../comp/generic/comp-g-submenu.css');
+@import url('../../comp/generic/comp-g-thread.css');
+@import url('../../comp/generic/comp-g-11.css');
+@import url('../../comp/generic/comp-g-video.css');
+@import url('../../comp/generic/comp-g-note.css');
+@import url('../../comp/generic/comp-g-anchor.css');
+
+
+/**/
+div#compSetThread {
+  display: flex; flex-flow: row nowrap;
+}
+div#compSetThread > div.comp-g-submenu {
+  min-width: 160px;
+  max-width: 240px;
+}
+div#compSetThread > div.comp-g-thread {
+  max-width: 1000px;
+  margin-top: 12px;
+  flex-grow: 1;
+}
+
+
+/**/
+div#content.preview div.comp-g-submenu li.pg-1,
+div#content.preview div.comp-g-submenu li.pg-2,
+div#content.preview div.comp-g-submenu li.pg-3,
+div#content.preview div.comp-g-submenu li.pg-4,
+div#content.preview div.comp-g-submenu li.pg-16,
+div#content.preview div.comp-g-submenu li.pg-17,
+div#content.preview div.comp-g-submenu li.pg-18,
+div#content.preview div.comp-g-submenu li.pg-19,
+div#content.preview div.comp-g-submenu li.pg-20 {
+  display: none;
+}
+div#content.preview div.comp-g-trail ul.sibling li.pg-1,
+div#content.preview div.comp-g-trail ul.sibling li.pg-2,
+div#content.preview div.comp-g-trail ul.sibling li.pg-3,
+div#content.preview div.comp-g-trail ul.sibling li.pg-4,
+div#content.preview div.comp-g-trail ul.sibling li.pg-16,
+div#content.preview div.comp-g-trail ul.sibling li.pg-17,
+div#content.preview div.comp-g-trail ul.sibling li.pg-18,
+div#content.preview div.comp-g-trail ul.sibling li.pg-19,
+div#content.preview div.comp-g-trail ul.sibling li.pg-20 {
+  display: none;
+}
+
+
+
+/*@media print {*/
+
+/*    !* view *!*/
+/*    div.view div.intro {*/
+/*    }*/
+/*    div.view div.note {*/
+/*        display: none;*/
+/*    }*/
+/*    div.view div.notice {*/
+/*    }*/
+/*    div.view div.export {*/
+/*        display: none;*/
+/*    }*/
+/*    div.view div.tbar {*/
+/*        display: none;*/
+/*    }*/
+
+/*    !* viewComments *!*/
+/*    div.viewComments {*/
+/*        display: none !important;*/
+/*    }*/
+/*    !* viewBC *!*/
+/*    div.breadcrumb {*/
+/*        display: none;*/
+/*    }*/
+/*    !* viewSM *!*/
+/*    div.viewSM {*/
+/*        display: none;*/
+/*    }*/
+
+/*    div#viewA {*/
+/*        display: none;*/
+/*    }*/
+
+/*}*/

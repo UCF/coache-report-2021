@@ -1,0 +1,24 @@
+/* Anchor to Modal */
+
+.comp-g-anchor {
+
+}
+/*.comp-g-anchor:has(a.modal.icon) {*/
+/*  display: inline-block;*/
+/*}*/
+.comp-g-anchor a.modal.text {
+
+}
+
+.comp-g-anchor a.modal.icon {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 0;
+}
+.comp-g-anchor a.modal.icon > img {
+  width: 24px;
+  vertical-align: bottom;
+}
+.comp-g-anchor a.modal.icon > span {
+}
+

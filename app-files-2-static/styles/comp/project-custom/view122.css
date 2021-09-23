@@ -1,0 +1,58 @@
+/* View 122: Custom Questions Open-Ended Responses */
+
+
+/* Utils */
+
+div.view122 .highlight {
+  font-weight: 700;
+  color: #a51c30;
+}
+
+
+/* Head */
+
+div.view122 div.head  {
+  position: relative;
+}
+
+
+/* Body */
+
+div.view122 div.body {
+  position: relative;
+}
+
+div.view122 div.body div.resps {
+  margin: 0 0 30px 0;
+}
+
+div.view122 div.body div.resps ul {
+  margin: 15px 0 15px 0;
+  padding: 0;
+  list-style-type: none;
+}
+div.view122 div.body div.resps ul li {
+  padding: 10px 5px;
+  border-top: dotted 1px silver;
+}
+div.view122 div.body div.resps ul li:first-child {
+  border-top: none;
+}
+div.view122 div.body div.resps div.back-to-top {
+}
+
+
+/* Control */
+
+div.view122 div.control  {
+  position: relative;
+  margin-bottom: 30px;
+}
+div.view122 div.control ul {
+  padding-left: 40px;
+  list-style-type: none;
+}
+div.view122 div.control li {
+  text-indent: -25px;
+  margin-top: 5px;
+}

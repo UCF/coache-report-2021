@@ -1,0 +1,355 @@
+/**/
+@import url('../../comp/generic/comp-g-header.css');
+@import url('../../comp/generic/comp-g-footer.css');
+
+
+div#header div.comp-g-header > div.body > div.top {
+	display: none;
+}
+
+
+/* Elements */
+html {
+
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  position: relative;
+  min-width: 800px;
+  max-width: 1500px;
+  margin: auto;
+  padding: 0 30px 0 30px;
+  visibility: hidden; /**/
+}
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+img [src$=".png"], img[src$=".gif"] {
+  /*image-rendering: crisp-edges;*/
+}
+a {
+  color: #306da7;
+  font-weight: lighter;
+  cursor: pointer;
+}
+a:hover {
+  color: #000;
+}
+
+/* Font styling */
+.font_color_crimson { color: #a51c30; }
+.font_color_charcoal { color: #565656; }
+.font_color_midnightblue {color: #213153; }
+.font_color_burgundy { color: #682f24; }
+.font_color_cobaltgreen { color: #00584d; }
+.font_color_cornflowerblue { color: #306da7; }
+.font_color_goldenrod { color: #9c660F; }
+.font_color_paynesgrey { color: #606e7b; }
+.font_color_burntorange { color: #d16103; }
+.font_color_ivory { color: #f4edca; }
+.font_color_coolgray { color: #f3f3f1; }
+.font_color_coolgreen { color: #4090a0; }
+.font_color_black { color: black; }
+.font_color_green { color: green; }
+.font_color_green_light { color: #33cc33; /*#99cc00*/ }
+.font_color_gray { color: gray; }
+.font_color_red { color: red; }
+.font_color_blue { color: blue; }
+.font_color_white { color: #fff; }
+.font_weight_light { font-weight: 100; }
+.font_weight_normal { font-weight: 400; }
+.font_weight_bold { font-weight: 700; }
+.font_weight_bolder { font-weight: bolder; }
+.font_style_italic { font-style: italic; }
+.text_decor_underline { text-decoration: underline; }
+
+/* Background styling */
+.bg_color_white { background-color: white; }
+.bg_color_yellow { background-color: yellow; }
+.bg_color_orange { background-color: orange; }
+
+/* Display */
+.display_none { display: none; }
+
+/* Other */
+.nbsp {white-space: nowrap; }
+
+
+/* --- Components --- */
+div.comp {
+  position: relative;
+  font-weight: 100;
+  background: #fff;
+}
+div.comp > div.head {
+  margin: 0 0 15px 0;
+  font-size: 15px;
+}
+div.comp > div.head > p {
+}
+div.comp > div.body {
+  margin: 0 0;
+}
+div.comp div.notice {
+  font-size: 16px;
+  margin: 0 5%;
+  padding: 10px 5px;
+  text-align: center;
+  background: #f3f3f1;
+  color: #d16103;
+}
+div.comp h3 {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0 0 10px 0;
+}
+div.comp h4 {
+  font-size: 18px;
+  margin: 30px 0 10px;
+  /*font-weight: 700;*/
+  font-weight: 100;
+  color: #a51c30;
+}
+div.comp h5 {
+  font-size: 16px;
+  margin: 15px 0 10px;
+  font-weight: 100;
+}
+div.comp th {
+  font-weight: 100;
+}
+div.comp p,
+div.comp ul {
+  margin: 0 0 10px 0;
+}
+div.comp p {
+  max-width: 1000px;
+  line-height: 1.3em;
+}
+div.comp li {
+  /*max-width: 1000px;*/
+}
+
+
+/* --- --- */
+a.control {
+
+}
+
+
+/* --- Images --- */
+img.triangle {
+  width: 12px; height: 12px;
+}
+
+
+/* --- Header --- */
+
+div#header {
+  position: relative;
+  width: auto; height: auto;
+}
+
+
+/* --- Content  --- */
+
+div#content {
+  position: relative;
+  min-height: 500px;
+  margin: 0 0 45px 0;
+}
+div#content div.nav {
+}
+div#content div.core {
+  padding: 45px 0 0 0;
+}
+
+
+/* --- Footer --- */
+
+div#footer {
+  position: relative;
+  border-top: solid 1px #ddd;
+  padding: 45px 0 45px;
+}
+
+
+/* --- Modal --- */
+
+a.modal {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+div#modal {
+  display: none; /* flex when displayed */
+  justify-content: center;
+  align-items: center;
+  position: fixed; left: 0; top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+  /*overflow: auto;*/
+  background-color: rgba(0,0,0,0.5);
+}
+div#modal div.backdrop {
+  position: absolute; left: 0; top: 0;
+  z-index: 11;
+  width: 100%;
+  height: 100%;
+}
+div#modal div.content {
+  position: relative;
+  width: 75%; height: 70%;
+  min-width: 600px;
+  max-width: 1000px;
+  z-index: 12;
+  /*padding: 5px 20px 20px;*/
+  background-color: #fefefe;
+}
+div#modal div.content > div.head {
+  position: relative;
+  display: flex; flex-flow: row-reverse; align-items: center;
+  height: 10%; min-height: 50px;
+  padding: 0 2% 1%;
+  /*background: #f3f3f1;*/
+}
+div#modal div.content > div.head span.close {
+  /*display: inline-block;*/
+  font-size: 45px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+div#modal div.content > div.head span.close:hover,
+div#modal div.content > div.head span.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+div#modal div.content > div.body {
+  position: relative;
+  overflow: auto;
+  height: 80%;
+  padding: 2% 1% 1%;
+}
+div#modal div.content > div.body div.comp-g-video iframe {
+  width: 95%;
+}
+
+
+/* --- Warning about Browser --- */
+
+div#warningBrowser {
+  margin: 0.5em 2em;
+  padding: 0.5em 0.2em;
+  background: #ffe8e7;
+  color: red;
+  text-align: center;
+  border: solid 1px red;
+}
+div#warningBrowser span.text {
+  font-size: 1.1em;
+}
+div#warningBrowser i.material-icons {
+  vertical-align: -2px;
+}
+
+
+@media print {
+
+  /* Elements */
+  html {
+
+  }
+  body {
+
+  }
+  h1 {
+    margin: 0;
+    text-align: left;
+    font-size: 1.7em;
+    page-break-after: avoid;
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+
+  /* Font styling */
+  .font_color_crimson {  }
+
+
+  /* Background styling */
+  .bg_color_white {  }
+
+  /* Print classes */
+  .print_none {
+    display: none;
+  }
+
+  /* External Wrapper */
+  div#body {
+    width: auto;
+    max-width: none;
+  }
+
+  div#body > div#header {
+    display: none;
+  }
+
+  div#body > div#footer {
+    position: relative;
+  }
+
+
+  div#body > div#content {
+    position: relative;
+    margin: 0 0 0 0;
+  }
+
+
+  /* --- Header --- */
+  div#header div.menu {
+    visibility: hidden;
+    height: 0.5em;
+  }
+  div#header div.coache {
+    float: right;
+    text-align: right;
+  }
+  div#header div.coache span {
+    color: crimson;
+    font-family: garamond serif;
+  }
+  div#header div.coache div:nth-child(1) span {
+    font-weight: bold;
+  }
+  div#header div.coache div:nth-child(2) span {
+    font-style: italic;
+  }
+  div#header div.head h2 {
+    margin: 5px 0 5px 0;
+  }
+
+
+  /* --- Footer --- */
+  div#footer {
+    display: none;
+  }
+
+
+  /* --- Images --- */
+  img.triangle {
+    width: 12px; height: 12px;
+  }
+
+}

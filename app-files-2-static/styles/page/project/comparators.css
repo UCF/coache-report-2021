@@ -1,0 +1,15 @@
+/**/
+@import url('../../comp/project/view118.css');
+@import url('../../comp/project/viewCohort.css');
+
+
+div.view118 {
+    margin-bottom: 45px;
+    width: 600px;
+}
+
+div.viewCohort {
+    /*margin-top: 45px;*/
+    width: 600px;
+}
+

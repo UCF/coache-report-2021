@@ -1,0 +1,60 @@
+h1 {
+    font-size: 35px;
+}
+div.view {
+    page-break-inside: auto !important;
+}
+div.view > h3 {
+    font-size: 25px;
+    page-break-before: always;
+}
+
+
+/* ---View 105 --- **/
+
+div.view105c {
+
+}
+div.view105c h3 {
+    page-break-before: auto;
+}
+
+div.view105c div.chart.chartCore {
+    page-break-inside: avoid !important;
+}
+div.view105c div.chart.chartScroll {
+    display: none !important;
+}
+div.view105c div.chart.chartHead {
+    display: none !important;
+}
+div.view105c div.chart.chartCore div.results {
+    overflow: visible !important;
+}
+div.view105c div.chart.chartCore div.fixedLabel {
+    display: none !important;
+}
+
+/* Ag columns */
+div.view105c div.chart td.tenured, 
+div.view105c div.chart td.full, 
+div.view105c div.chart td.assoc, 
+div.view105c div.chart td.men, 
+div.view105c div.chart td.white,
+div.view105c div.chart td.foc/**/ {
+    display: none;
+}
+
+
+/* ---View 106 --- */
+
+div#view106 {
+}
+div#view106 div.list ul li {
+    border-top: solid 0.1em silver;
+}
+div#view106 div.list ul {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+}

@@ -1,0 +1,22 @@
+/* View 106: [Best/Worst] Aspects Comments */
+
+
+/**/
+div.view106 {
+    margin: 0 0 0 0;
+    width: 90%;
+}
+
+div.view106 div.list ul {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+
+div.view106 div.list ul li {
+    padding: 0.5em 0.3em;
+    border-top: dotted 1px silver;
+}
+div.view106 div.list ul li span {
+}
+
+

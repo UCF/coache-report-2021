@@ -1,0 +1,83 @@
+/* Header */
+
+div.comp-g-header > div.body {
+  padding-top: 5px;
+}
+div.comp-g-header > div.body div.top {
+  text-align: right;
+  padding: 0 5px 0 0;
+  word-spacing: 12px;
+}
+div.comp-g-header > div.body div.top a {
+  font-size: 17px;
+  font-weight: lighter;
+  cursor: pointer;
+  text-decoration: underline;
+}
+div.comp-g-header > div.body div.top a:hover {
+  color: #000;
+}
+
+div.comp-g-header > div.body div.middle {
+  position: relative;
+  width: auto; height: auto;
+  display: flex; flex-flow: row nowrap; justify-content: space-between;
+  margin: 0 0 5px 0;
+}
+div.comp-g-header > div.body div.middle div.left {
+  position: relative;
+  width: 450px;
+  padding: 0 30px 0 0;
+}
+div.comp-g-header > div.body div.middle div.left img {
+}
+div.comp-g-header > div.body div.middle div.right {
+  display: flex; flex-flow: column nowrap; justify-content: flex-end;
+  padding-bottom: 8px;
+  font-weight: lighter;
+  text-align: right;
+  color: #000;
+}
+div.comp-g-header > div.body div.middle div.right > div {
+  padding: 2px 0;
+}
+div.comp-g-header > div.body div.middle div.right > div span {
+  padding: 2px 5px;
+  color: #000;
+}
+div.comp-g-header > div.body div.middle div.right div.aware span {
+  font-size: 40px;
+}
+div.comp-g-header > div.body div.middle div.right div.line span {
+  font-size: 17px;
+}
+div.comp-g-header > div.body div.middle div.right div.program span {
+  color: #a51c30;
+  font-weight: bold;
+  font-size: 16px;
+}
+div.comp-g-header > div.body div.middle div.right div.product span {
+  font-size: 20px;
+  color: #565656;
+}
+
+div.comp-g-header > div.body div.bottom {
+  display: flex; flex-flow: row nowrap; justify-content: flex-end; align-items: center;
+  background: none;
+}
+div.comp-g-header > div.body div.bottom span {
+  padding: 10px 10px;
+  font-weight: lighter;
+  font-size: 24px;
+}
+div.comp-g-header > div.body div.bottom span.partner {
+  text-align: right;
+  flex-grow: 1;
+  background: none;
+  color: #444;
+}
+div.comp-g-header > div.body div.bottom span.period {
+  background: #a51c30;
+  color: #f3f3f1;
+  font-size: 30px;
+}

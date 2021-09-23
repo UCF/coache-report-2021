@@ -1,0 +1,35 @@
+/* ba110 */
+
+div.ba110 {
+
+}
+
+div.ba110 > div.body > div.text {
+    margin-top: 70%;
+    text-align: left;
+}
+div.ba110 > div.body > div.text p.logo {
+    margin-bottom: 2em;
+}
+div.ba110 > div.body > div.text p.logo img {
+    width: 440px;
+}
+div.ba110 > div.body > div.text p.name {
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+div.ba110 > div.body > div.text p.name span {
+    font-size: 1.8em;
+}
+div.ba110 > div.body > div.text p.contact {
+}
+div.ba110 > div.body > div.text p.contact span {
+    font-size: 1.4em;
+}
+div.ba110 > div.body > div.text p.name span,
+div.ba110 > div.body > div.text p.contact span {
+    font-family: sans-serif, "ITC Franklin Gothic Std Book";
+    color: #505050;
+}
+
+

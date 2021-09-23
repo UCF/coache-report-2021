@@ -1,0 +1,12 @@
+h1 {
+    font-size: 35px;
+}
+div.menu {
+    display: none;
+}
+
+div.view {
+    page-break-inside: avoid !important;
+}
+div.view > h3 {
+}

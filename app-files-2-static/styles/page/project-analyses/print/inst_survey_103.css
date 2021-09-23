@@ -1,0 +1,48 @@
+
+h1 {
+    font-size: 35px;
+}
+
+div.view {
+    page-break-inside: avoid !important;
+}
+div.view > h3 {
+}
+
+
+/* --- ViewA --- */
+div#viewA {
+}
+div#viewA div img {
+    width: 800px; height: auto;
+}
+
+
+/* --- View101 --- */
+div.view101b {
+}
+div.view101b h3 {
+}
+
+div.view101b div.chart {
+}
+
+div.view101b div.chart.chartScroll {
+    display: none !important;
+}
+div.view101b div.chart.chartHead {
+    display: none !important;
+}
+div.view101b div.chart.chartCore div.results {
+    overflow: visible !important;
+}
+div.view101b div.chart.chartCore div.fixedLabel {
+    display: none !important;
+}
+
+div.view101b_ags01 {
+    font-size: 9px !important;
+}
+div.view101b_ags02 {
+    font-size: 7px !important;
+}

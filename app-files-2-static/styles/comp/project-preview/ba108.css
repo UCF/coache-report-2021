@@ -1,0 +1,18 @@
+/* ba108 */
+
+div.ba108 {
+
+}
+
+div.ba108 > div.body {
+    position: relative;
+}
+div.ba108 > div.body > div.text {
+    margin-top: 40%;
+}
+div.ba108 > div.body > div.text p {
+    margin-bottom: 2.5em;
+}
+div.ba108 > div.body > div.text p span.title {
+    font-style: italic;
+}

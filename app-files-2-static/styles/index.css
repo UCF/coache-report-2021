@@ -1,0 +1,420 @@
+/*CSS - Main*/
+
+/* Elements */
+html {
+
+}
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    min-width: 800px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 0 8px;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 15px 0 10px 0;
+    clear: both;
+}
+h2 {
+}
+h3 {
+    font-size: 1.2em;
+    margin: 12px 0 8px;
+}
+h4 {
+    font-size: 1.1em;
+    margin: 12px 0 3px;
+}
+img [src$=".png"], img[src$=".gif"] {
+    /*image-rendering: crisp-edges;*/
+}
+
+/* Font styling */
+.font_color_crimson { color: #c00000; } /*crimson*/
+.font_color_black { color: black; }
+.font_color_green { color: green; }
+.font_color_green_light { color: #33cc33; /*#99cc00*/ }
+.font_color_gray { color: gray; }
+.font_color_red { color: red; }
+.font_color_blue { color: blue; }
+.font_color_white { color: #fff; }
+.font_weight_bold { font-weight: bold; }
+.font_weight_normal { font-weight: normal; }
+.font_style_italic { font-style: italic; }
+.text_decor_underline { text-decoration: underline; }
+
+/* Background styling */
+.bg_color_white { background-color: white; }
+.bg_color_yellow { background-color: yellow; }
+.bg_color_orange { background-color: orange; }
+
+/* Display */
+.display_none { display: none; }
+
+/* List styling */
+ul.list1 {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+ul.list1 li {
+    padding-left: 2.67em ;
+    text-indent: -2.67em ;
+}
+ul.list2 {
+    padding: 0 0 0 0;
+    list-style: none;
+    margin: 0 0 0 0;
+}
+ul.list3 {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+ul.list3 li {
+    padding-left: 1.67em ;
+    text-indent: -1.67em ;
+}
+
+
+/* --- Content  --- */
+
+div#content {
+    position: relative;
+    margin: 0 0 0 0;
+    min-height: 500px;
+}
+
+
+/* --- Header --- */
+
+div#header {
+    position: relative;
+    border-bottom: solid 1px #ddd;
+    padding: 1em 0 1em 0;
+}
+
+div#header > div {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 49.5%;
+}
+div#header div.left {
+    width: 450px;
+}
+div#header div.right {
+    text-align: right;
+}
+div#header div.left div.logo {
+}
+div#header div.left div.logo img {
+    /*width: 28em; height: 2.8em;*/
+}
+div#header div.left div.text {
+    margin: 0.2em 0 0 3.2em;
+}
+div#header div.left div.text span {
+    font-size: 2em;
+    font-weight: lighter;
+}
+/* right */
+div#header div.right div.menu {
+    /*visibility: hidden;*/
+}
+div#header div.right div.menu a {
+    font-size: 0.8em;
+    color: #888;
+}
+div#header div.right div.menu a:hover {
+    color: #000;
+}
+div#header div.right h2 {
+    margin: 0.2em 0 0 0;
+    font-weight: normal;
+}
+div#header div.right div.text {
+
+}
+div#header div.right div.text span {
+    color: #c00000; /*crimson*/
+    font-size: 0.8em;
+    font-weight: normal;
+    font-style: italic;
+    /*font-family: serif;*/
+}
+
+
+/* --- Footer --- */
+div#footer {
+    position: relative;
+    border-top: solid 1px #ddd;
+    padding: 1em 0 1em 0;
+}
+div#footer > div {
+    text-align: center;
+}
+div#footer div.logo {
+}
+div#footer div.logo img {
+    width: 27em;
+}
+div#footer div.text {
+    margin: 0.5em 0 0 0;
+}
+div#footer div.text div {
+    margin: 0.2em 0 0 0;
+}
+div#footer div.text div.line1 span {
+    font-size: 1em;
+}
+div#footer div.text div.line1 span a {
+    color: #777;
+}
+div#footer div.text div.line1 span a:hover {
+    color: #000;
+}
+div#footer div.text div.line2 span {
+    font-size: 0.8em;
+}
+
+
+/* --- View --- */
+
+div.view {
+    position: relative;
+    padding: 0;
+}
+ div.view > h3 {
+    color: gray;
+}
+
+
+/* --- Anchor --- */
+div.anchor {
+    clear: both;
+}
+
+
+/* --- Include --- */
+div.viewText {
+    max-width: 1000px;
+}
+div.viewText div.body {
+    padding: 1em 0 0 0;
+}
+div.viewText div.body h3 {
+    margin: 0 0 0 0;
+    padding: 0 0 1em 0;
+}
+div.viewText div.body h3 span {
+    font-size: 1.2em;
+}
+div.viewText div.body div.section {
+    margin: 0 0 0 0;
+    padding: 0 0 1em 0;
+}
+div.viewText div.body div.section h4 {
+    margin: 0 0 0 0;
+    padding: 0 0 0.7em 0;
+}
+div.viewText div.body div.section h4 > span {
+    font-size: 1.2em;
+}
+div.viewText div.body div.section h5 {
+    margin: 0 0 0 0;
+    padding: 0 0 0.7em 0;
+}
+div.viewText div.body div.section h5 > span {
+    font-size: 1.2em;
+}
+div.viewText div.body div.section ul,
+div.viewText div.body div.section ol {
+    margin: 0 0 0 0;
+    padding-bottom: 0.7em;
+    line-height: 1.4em;
+}
+div.viewText div.body div.section p {
+    margin: 0 0 0 0;
+    padding: 0 0 0.7em 0;
+    line-height: 1.4em;
+}
+div.viewText div.body div.section p > span,
+div.viewText div.body div.section li > span {
+    font-size: 16px;
+}
+div.viewText div.body div.section p > span a,
+div.viewText div.body div.section li > span a {
+    color: #ac1b33;
+}
+div.viewText div.body div.section p > span a:hover,
+div.viewText div.body div.section li > span a:hover {
+    color: #000;
+}
+div.viewText div.body div.section p > span img.triangle {
+    width: 12px; height: 12px;
+    vertical-align: baseline;
+}
+
+
+/* --- Images --- */
+img.triangle {
+    width: 12px; height: 12px;
+}
+
+
+/* --- Warning about Browser --- */
+div#warningBrowser {
+    margin: 0.5em 2em;
+    padding: 0.5em 0.2em;
+    background: #ffe8e7;
+    color: red;
+    text-align: center;
+    border: solid 1px red;
+    /*border-top: solid 1px red;*/
+    /*border-bottom: solid 1px red;*/
+}
+div#warningBrowser span.text {
+    font-size: 1.1em;
+}
+div#warningBrowser i.material-icons {
+    vertical-align: -2px;
+}
+
+
+@media print {
+
+    /* Elements */
+    html {
+
+    }
+    body {
+
+    }
+    h1 {
+        margin: 0;
+        text-align: left;
+        font-size: 1.7em;
+        page-break-after: avoid;
+        /*position: absolute; top: 10em; left: 0;*/
+    }
+    h2 {
+
+    }
+    h3 {
+
+    }
+
+    /* Font styling */
+    .font_color_crimson {  }
+
+
+    /* Background styling */
+    .bg_color_white {  }
+
+    /* Print classes */
+    .print_none {
+        display: none;
+    }
+
+    /* External Wrapper */
+    div#body {
+        width: auto;
+        max-width: none;
+    }
+
+    div#body > div#header {
+        display: none;
+    }
+
+    div#body > div#footer {
+        position: relative;
+    }
+
+
+    div#body > div#content {
+        position: relative;
+        margin: 0 0 0 0;
+    }
+
+
+    /* --- Header --- */
+    div#header div.menu {
+        visibility: hidden;
+        height: 0.5em;
+    }
+    div#header div.coache {
+        float: right;
+        text-align: right;
+    }
+    div#header div.coache span {
+        color: crimson;
+        font-family: garamond serif;
+    }
+    div#header div.coache div:nth-child(1) span {
+        font-weight: bold;
+    }
+    div#header div.coache div:nth-child(2) span {
+        font-style: italic;
+    }
+    div#header div.head h2 {
+        margin: 5px 0 5px 0;
+    }
+
+
+    /*  --- View --- */
+
+    div.view {
+        display: block !important;
+        width: auto;
+        margin: 1em 0 0 0;
+        /*page-break-inside: avoid;*/
+    }
+    div.view.viewComments {
+        display: none !important;
+    }
+    div.view > h3 {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+    }
+    div.view p.intro {
+        margin-top: 0.1em;
+        margin-bottom: 0.1em;
+    }
+    div.view div.chart.chartExport {
+        display: none;
+    }
+
+
+    /* --- Anchor --- */
+    div.anchor {
+        clear: both;
+    }
+
+
+    /* --- Comments --- */
+    div.viewComments {
+        display: none !important;
+    }
+
+
+    /* --- Include --- */
+    div.viewText {
+        width: auto;
+        max-width: none;
+    }
+
+
+    /* --- Images --- */
+    img.triangle {
+        width: 12px; height: 12px;
+    }
+
+
+    /* --- Footer --- */
+    div#footer {
+        display: none;
+    }
+
+}

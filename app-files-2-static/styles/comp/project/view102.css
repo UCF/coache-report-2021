@@ -1,0 +1,56 @@
+/* View 102: General Response Rates */
+
+div.view102 > div.body {
+  position: relative;
+}
+div.view102 > div.body > div.chart {
+  position: relative;
+}
+div.view102 > div.body > div.chart > div.results {
+  position: relative;
+  width: 100%; height: auto;
+  overflow-x: auto;
+  padding: 0 0 10px 0;
+}
+div.view102 > div.body > div.chart > div.fixedLabel {
+  position: absolute; top: 0; left: 0; /**/
+  width: auto; height: auto; /*595px*/
+  background: white;
+  border-right: solid 1px lightgray; /**/
+  box-shadow: 1px 0 1px lightgray;
+}
+/* table */
+div.view102 table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+/* table cols */
+div.view102 tr div {
+  padding: 5px 5px;
+}
+div.view102 tr td.label div {
+  width: 105px;
+}
+div.view102 tr td.value div {
+  width: 60px;
+  text-align: center;
+  border-left: dotted 1px #ccc;
+}
+/* table rows: head & body */
+div.view102 tr.head.row1 div {
+  border-bottom: solid 2px crimson;
+}
+div.view102 tr.body td.value div:last-of-type {
+  color: #a51c30;
+}
+div.view102 tr:nth-child(odd) {
+  background: #fff;
+}
+div.view102 tr:nth-child(even) {
+  background: #eee;
+}
+/* table cells */
+div.view102 th,
+div.view102 td {
+  padding: 0;
+}

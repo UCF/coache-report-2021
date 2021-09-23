@@ -1,0 +1,47 @@
+
+/* --- View 108 --- */
+
+div#view108 {
+}
+
+div#view108 p.intro {
+    font-size: 11px;
+}
+
+div#view108 div.chart {
+    font-size: 12px;
+}
+div#view108 div.legend {
+    display: none;
+}
+
+div#view108 div.chart div.axis_y div.y {
+    border-top: solid 0.5px silver;
+}
+
+/* X-axis labels */
+div#view108 div.chart table.axis_x td div {
+    
+}
+
+
+/* --- View 109 --- */
+
+div#view109 {
+    page-break-inside: auto;
+}
+
+div#view109 div.legend {
+    display: none;
+}
+
+div#view109 div.list {
+}
+div#view109 div.list ul li {
+    border-top: solid 0.1em silver;
+}
+div#view109 div.list ul {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3;
+    column-count: 3;
+}

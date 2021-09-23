@@ -1,0 +1,34 @@
+
+div#view104 {
+}
+
+div#view104 p.intro {
+    font-size: 11px;
+}
+
+div#view104 div.chart, 
+div#view104 div.legend {
+    font-size: 10.5px;
+}
+
+/* Legend */
+div#view104 div.legend div.guide,
+div#view104 div.legend li.checkall, 
+div#view104 div.legend li.div input {
+    display: none;
+}
+
+/* Y-axis */
+div#view104 div.chart div.axis_y div.y {
+    border-top: solid 0.1em silver;
+}
+div#view104 div.chart div.axis_y div span {
+    left: -2em;
+}
+
+/* X-axis */
+div#view104 div.chart table.axis_x td div {
+    
+}
+
+

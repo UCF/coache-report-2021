@@ -1,0 +1,32 @@
+/**/
+
+div.comp-g-footer > div.body > div {
+    font-weight: lighter;
+    text-align: center;
+}
+
+div.comp-g-footer > div.body div.logo {
+    display: none;
+}
+div.comp-g-footer > div.body div.logo img {
+    width: 450px;
+}
+
+div.comp-g-footer > div.body div.text {
+    margin: 0.5em 0 0 0;
+}
+div.comp-g-footer > div.body div.text div {
+    margin: 0.5em 0 0 0;
+}
+div.comp-g-footer > div.body div.text div.line1 span {
+    font-size: 1em;
+}
+div.comp-g-footer > div.body div.text div.line1 span a {
+    color: #777;
+}
+div.comp-g-footer > div.body div.text div.line1 span a:hover {
+    color: #000;
+}
+div.comp-g-footer > div.body div.text div.line2 span {
+    font-size: 0.9em;
+}

@@ -1,0 +1,72 @@
+/* View 123: Custom Questions Closed-Ended Text Responses */
+
+
+/* */
+
+div.view123 {
+    max-width: 50em;
+    border: dotted gray 0.1em;
+}
+div.view123 > div {
+    margin-left: 0.5em; margin-right: 0.5em;
+    padding: 0.5em;
+}
+
+/* --- Head --- */
+
+div.view123 div.head {
+
+}
+div.view123 div.head div.buttons {
+    text-align: right;
+}
+div.view123 div.head div.buttons a.print {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* --- Body --- */
+
+div.view123 div.body {
+    position: relative; 
+    width: auto; height: auto;
+    /*padding-left: 0.5em; padding-right: 0.5em;*/
+}
+
+div.view123 div.body div.resps {
+    margin: 2em 0 0 0;
+}
+
+div.view123 div.body div.resps ul {
+    margin: 2em 0 0 0;
+    max-height: 20em;
+    overflow-y: auto;
+}
+div.view123 div.body div.resps ul li {
+    padding: 0.67em 0.33em;
+    border-top: dotted 0.1em silver;
+}
+
+
+/* --- Control --- */
+
+div.view123 div.control {
+    position: relative; 
+    width: auto; height: auto;
+    max-height: 10em;
+    margin-top: 1em;
+    overflow-y: auto;
+}
+
+div.view123 div.control div.control4Items {
+    position: relative; 
+    width: auto; height: auto;
+    background: #e9e9e9;
+    padding: 1em 1em;
+}
+
+div.view123 div.control div.control4Items div.controlgroup label {
+    margin-bottom: 0.3em;
+}
+

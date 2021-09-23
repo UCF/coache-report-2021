@@ -1,0 +1,23 @@
+/* Project - Analyses - Global - How to Improve */
+@import url('../../comp/project-analyses/view108.css');
+@import url('../../comp/project-analyses/view109c.css');
+
+div.comp-g-video {
+    display: none;
+}
+div.comp-g-note {
+    display: none;
+}
+
+div.compA,
+div.view108,
+div.view109c {
+    margin-bottom: 45px;
+}
+
+div.compA {
+}
+
+@media print {
+
+}

@@ -1,0 +1,6 @@
+/* Modal util */
+
+
+#modal div.comp-g-video iframe {
+  max-height: 500px;
+}

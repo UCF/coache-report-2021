@@ -1,0 +1,26 @@
+/* Project - Preview - All */
+
+
+div.comp-preview {
+  border: dotted 1px #aaa;
+  margin-bottom: 30px;
+  padding: 0 15px 10px;
+}
+div.comp-preview div.sub-header {
+  padding-top: 30px;
+}
+div.comp-preview div.sub-content {
+  padding-top: 30px;
+}
+
+@media print {
+
+  div.comp-preview {
+    border: none;
+    margin-bottom: 0;
+    padding: 0;
+    page-break-after: always;
+    page-break-inside: avoid;
+  }
+
+}

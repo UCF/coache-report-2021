@@ -1,0 +1,163 @@
+/* View 104 */
+
+div#view104 {
+    position: relative;
+    width: auto; height: auto;
+    font-size: 15px;
+    /*background: aqua;*/
+}
+
+/* -- Chart and Legend -- */
+div#view104 div.chart,
+div#view104 div.legend {
+    display: inline-block;
+    vertical-align: top; /* goes with display inline-block */
+}
+
+
+/* -- Legend -- */
+div#view104 div.legend {
+    z-index: 1000;
+    margin: 0 0 0 1em;
+    width: 16em; height: auto;
+    padding: 0.2em;
+    background: #f2f2f2;
+}
+div#view104 div.legend div.guide {
+    font-style: italic;
+}
+div#view104 div.legend ul {
+    padding: 0 0 0 0em;
+    list-style: none;
+}
+div#view104 div.legend li {
+    list-style: none;
+}
+div#view104 div.legend li.checkall {
+    margin: 0 0 1.33em 0; 
+    border-bottom: solid 1px gray;
+    padding: 0.33em 0 0.33em 0;
+}
+div#view104 div.legend li.div {
+    margin: 0 0 0.67em 0;
+    padding-left: 2.67em ;
+    text-indent: -2.67em ;
+}
+div#view104 div.legend li.div span.symbol {
+    font-weight: bold;
+}
+div#view104 div.legend li.div span.name {
+    font-size: 0.9em;
+}
+
+
+/* -- Chart -- */
+div#view104 div.chart {
+    position: relative;
+    margin: 1em 0 0 0;
+    padding-bottom: 4em;
+}
+
+/* -- Values and X-axis -- */
+div#view104 div.chart table.values, 
+div#view104 div.chart table.axis_x {
+    margin: 0 0 0 3.5em;
+    border-collapse: collapse;
+}
+div#view104 div.chart table.values td, 
+div#view104 div.chart table.axis_x td {
+    width: 2.5em;
+    padding: 0 0;
+}
+div#view104 div.chart table.values td div, 
+div#view104 div.chart table.axis_x td div {
+    padding: 0 0;
+}
+
+
+/* -- Values --- */
+
+div#view104 div.chart table.values {
+    border-left: dotted 1px gray;
+}
+
+/* Values rows */
+div#view104 div.chart table.values tr {
+    /*background: #f1f1f1;*/
+}
+
+/* Values cells */
+div#view104 div.chart table.values td {
+    height: 40em;
+    text-align: center;
+    /*background: #f1f1f1; border-right: dotted 1px gray;*/
+}
+/* Values cells - inner container */
+div#view104 div.chart table.values td div {
+    position: relative;
+    height: 100%; width: 100%;
+    padding: 0 0;
+    text-align: center;
+}
+/* Division symbols */
+div#view104 div.chart table.values td span {
+    position: absolute;
+    font-weight: bold;
+}
+
+
+/* -- X axis -- */
+
+/* Table */
+div#view104 div.chart table.axis_x {
+    position: relative; top: -7.47em;
+    background: #fff;
+}
+/* Cell - bm */
+div#view104 div.chart table.axis_x td {
+    position: relative;
+    height: 8em;
+    /*background: #f1f1f1; border-right: dotted 1px gray;*/
+}
+/* option 1 */
+div#view104 div.chart table.axis_x td div {
+    position: absolute; top: -3em; left: 4.47em;
+    width: 0.67em; height: 100%;
+    direction: rtl; 
+    transform: rotate(270deg); 
+    white-space: nowrap;
+    text-align: right;
+}
+/* option 2
+div#view104 div.chart table.axis_x td div {
+    z-index: 20;
+    position: absolute; top: 0.3em; left: 0.7em;
+    width: 0.67em; height: auto;
+    direction: rtl;
+    transform: rotate(290deg);
+    white-space: nowrap;
+    text-align: right;
+}*/
+
+
+/* -- Y axis -- */
+
+/* Block */
+div#view104 div.chart div.axis_y {
+    z-index: 10;
+    width: 96%; height: auto;
+    position: absolute; top: 0px; left: 2.67em;  
+}
+div#view104 div.chart div.axis_y div.y {
+    width: 100%; height: 4em;
+    border-top: dotted 1px gray;
+    position: relative;
+}
+div#view104 div.chart div.axis_y div span {
+    position: absolute; top: -0.5em; left: -1.2em;
+}
+
+
+
+
+

@@ -1,0 +1,119 @@
+/* View 108: How to Improve - In Numbers */
+
+
+div#view108 {
+    position: relative;
+}
+
+/**/
+div#view108 > div.body {
+    font-size: 15px;
+    position: relative;
+    padding-right: 30px;
+}
+/* -- Chart and Legend -- */
+div#view108 div.chart,
+div#view108 div.legend {
+    display: inline-block;
+    vertical-align: top;
+}
+/* -- Legend -- */
+div#view108 div.legend {
+    width: 16em; height: auto;
+    margin: 0 0 0 1em;
+    padding: 0.2em;
+    background: #f2f2f2;
+    /**/display: none;
+}
+/* -- Chart -- */
+div#view108 div.chart {
+    position: relative;
+    margin: 0 0 0 0;
+    padding-bottom: 16em;
+}
+div#view108 div.chart > div.results {
+    position: relative;
+    margin: 0 2em 0 3.5em;
+    padding-left: 0.7em;
+    border-left: dotted 1px gray;
+}
+/* -- Values and X-axis -- */
+div#view108 div.chart table.values, 
+div#view108 div.chart table.axis_x {
+    border-collapse: collapse;
+    
+}
+div#view108 div.chart table.values td, 
+div#view108 div.chart table.axis_x td {
+    width: 3em;
+    padding: 0 0;
+}
+div#view108 div.chart table.values td div, 
+div#view108 div.chart table.axis_x td div {
+    padding: 0 0;
+}
+/* -- Values --- */
+div#view108 div.chart table.values {
+    position: relative;
+}
+
+/* Values rows */
+div#view108 div.chart table.values tr {
+}
+
+/* Values cells */
+div#view108 div.chart table.values td {
+    height: 290px;
+    text-align: center;
+}
+/* Values cells - inner container */
+div#view108 div.chart table.values td div.col {
+    position: relative;
+    height: 100%; width: 100%;
+    padding: 0 0;
+    text-align: center;
+}
+/* Value Bar */
+div#view108 div.chart table.values td div.col div.val {
+    position: absolute; bottom: 0; left: 15%;
+    width: 65%;
+    background: green;
+    z-index: 10;
+}
+
+
+/* -- X axis -- */
+
+/* Table */
+div#view108 div.chart table.axis_x {
+    position: relative; top: 0;
+}
+/* Cell - ao */
+div#view108 div.chart table.axis_x td {
+    position: relative;
+    height: 2em;
+}
+div#view108 div.chart table.axis_x td div {
+    position: absolute; top: 0; left: 1.1em;
+    width: 0.67em; height: 100%;
+    direction: rtl; 
+    transform: rotate(270deg); 
+    white-space: nowrap;
+    text-align: right;
+}
+
+/* -- Y axis -- */
+
+/* Block */
+div#view108 div.chart div.axis_y {
+    position: absolute; top: 9px; left: 40px;
+    width: 95%; height: auto;
+}
+div#view108 div.chart div.axis_y div {
+    width: 100%; height: 39px;
+    border-top: dotted 1px gray;
+    position: relative;
+}
+div#view108 div.chart div.axis_y div span {
+    position: absolute; top: -9px; left: -26px;
+}

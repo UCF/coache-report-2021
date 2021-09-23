@@ -1,0 +1,112 @@
+/* --- View 121: Frequencies --- */
+
+/* --- Chart --- */
+div.view121 div.chart {
+    position: relative; 
+    width: auto; height: auto;
+}
+
+
+/* --- Results --- */
+div.view121 div.chart div.results {
+    position: relative; 
+    width: 100%; height: auto;
+    overflow-x: auto;
+}
+
+/* --- Fixed label --- */
+div.view121 div.chart div#fixedLabel {
+    position: absolute; top: 0; left: 0;/**/
+    width: 595px; height: auto;
+    background: white;
+    border-right: solid 1px lightgray;/**/
+}
+
+
+/* --- THead and Values --- */
+
+div.view121 table {
+    table-layout: fixed;
+    border-collapse: collapse;/**/
+    width: auto; height: auto;
+}
+div.view121 table td div {
+    font-size: 0.9em;
+    padding: 3px 0;
+}
+
+/* Label */
+div.view121 table tr.head td.label div {
+    padding-left: 3px;
+}
+/* ..Col 1: quest num */
+div.view121 table tr.head td.quest_num div {
+    width: 70px;
+}
+/* ..Col 2: quest wording */
+div.view121 table tr.head td.quest_wording div {
+    width: 120px;
+}
+/* ..Col 2: item num */
+div.view121 table tr.head td.item_num div {
+    width: 60px;
+}
+/* ..Col 2: item wording */
+div.view121 table tr.head td.item_wording div {
+    width: 120px;
+}
+/* ..Col 2: item resp scale */
+div.view121 table tr.head td.item_ro div {
+    width: 200px;
+}
+
+/* Cols: results */
+div.view121 table tr.head.row2 td.ag div,
+div.view121 table tr.body td.ag div {
+    width: 50px;
+    text-align: center;
+}
+
+/* --- Table Head only --- */
+
+div.view121 table tr.head td div {
+    font-weight: bold;
+}
+div.view121 table tr.head.row1 td div,
+div.view121 table tr.head.row2 td div {
+    text-align: center;
+}
+
+/* --- Table Body only --- */
+
+/* Rows */
+div.view121 table tr.body:nth-child(odd) {
+    background: #e6e6e6;
+}
+div.view121 table tr.body:nth-child(even) {
+    background: #fff;
+}
+
+
+/* --- Borders --- */
+
+/* Thead bottom border: Red */
+div.view121 table tr.head.row2 td {
+    border-bottom: solid 0.13em crimson;
+}
+/* Stats set border: Gray */
+div.view121 table tr.head.row1 td.ag.percent,
+div.view121 table tr.body td.ag.percent {
+    border-right: dotted 0.1em silver;
+}
+
+
+/* --- Link to Other Comments */
+div.view121 table tr.body td div a.open {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.view121 table tr.body td div a.open:hover {
+    color: gray;
+}

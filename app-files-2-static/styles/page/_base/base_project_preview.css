@@ -1,0 +1,199 @@
+/**/
+/* ..all */
+@import url('../../comp/project-preview/bn101.css');
+/* ..pg 1 */
+@import url('../../comp/project-preview/ba107.css');
+/* ..pg 2 */
+@import url('../../comp/project-preview/ba108.css');
+/* ..pg 3 */
+@import url('../../comp/project-preview/ba109.css');
+/* ..pg 4 */
+@import url('../../comp/project-preview/ba106.css');
+/* ..pg 5 */
+@import url('../../comp/project-preview/ba105.css');
+@import url('../../comp/project-preview/bv102.css');
+/* ..pg 6 */
+@import url('../../comp/project-preview/ba104.css');
+@import url('../../comp/project-preview/bv101.css');
+/* ..pg 7-11 */
+@import url('../../comp/project-preview/view107b.css');
+/* ..pg 12-13 */
+@import url('../../comp/project-preview/view105b.css');
+/* ..pg 14 */
+@import url('../../comp/project-preview/view108b.css');
+@import url('../../comp/project-preview/ba101.css');
+@import url('../../comp/project-preview/view116b.css');
+/* ..pg 15 */
+@import url('../../comp/project-preview/ba102.css');
+/* ..pg 16-18 */
+@import url('../../comp/project-preview/ba103.css');
+/* ..pg 19 */
+/* ..pg 20 */
+@import url('../../comp/project-preview/ba110.css');
+
+
+div.comp-preview {
+  position: relative;
+  margin: auto;
+  width: 735px; /*height: 975px;*/
+  background: #fff;
+  font-weight: 100;
+}
+div.comp-preview > div { /* sub-header, sub-content, sub-footer */
+  position: relative;
+  width: 100%;
+}
+
+/**/
+div.comp-preview > div.sub-header {
+  height: 70px;
+  border-bottom: solid 1px #ddd;
+}
+div.comp-preview.pg-1 > div.sub-header,
+div.comp-preview.pg-20 > div.sub-header {
+  border-bottom: solid 1px #fff;
+}
+div.comp-preview > div.sub-header img.logo {
+  display: block;
+  width: 33%;
+  position: absolute; bottom: 10px; left: 0;
+}
+div.comp-preview > div.sub-header span.title {
+  display: block;
+  width: 65%;
+  position: absolute; bottom: 13px; left: 35%; /**/
+  text-align: right;
+  color: #505050;
+}
+
+/**/
+div.comp-preview > div.sub-content {
+  height: 900px;
+}
+div.comp-preview > div.sub-content > div {
+  padding: 20px 20px 0 20px;
+}
+div.comp-preview > div.sub-content div.sect {
+  /*margin-bottom: 20px;*/
+}
+div.comp-preview > div.sub-content div.view:first-of-type {
+  margin-top: 10px;
+}
+
+/**/
+div.comp-preview > div.sub-footer {
+  height: 50px;
+  border-top: solid 1px #ddd;
+}
+div.comp-preview.pg-1 > div.sub-footer,
+div.comp-preview.pg-20 > div.sub-footer {
+  border-top: solid 1px #fff;
+}
+div.comp-preview > div.sub-footer > div {
+  height: 100%;
+}
+div.comp-preview > div.sub-footer div.footnotes {
+}
+div.comp-preview > div.sub-footer div.footnotes span.span1 {
+  font-size: 1em;
+}
+div.comp-preview > div.sub-footer div.footnotes span.span1 span.va_super {
+  font-size: 0.8em;
+  vertical-align: super;
+}
+div.comp-preview > div.sub-footer div.pg-num {
+  position: absolute; top: 35px;
+  width: 100%;
+  text-align: center;
+}
+div.comp-preview > div.sub-footer div.pg-num span {
+  font-size: 1.4em;
+}
+
+/**/
+div.comp-preview div.view {
+  font-size: 10px;
+}
+div.comp-preview div.view h3 {
+  margin-top: 0;
+}
+div.comp-preview div.view p {
+  margin: 0 0 1em 0;
+  padding: 0;
+  line-height: 1.6em;
+}
+div.comp-preview div.view h4 {
+  margin: 0 0 0.5em 0;
+}
+div.comp-preview div.view ul,
+div.comp-preview div.view ol {
+  margin: 0 0 1em 0;
+}
+div.comp-preview div.view h4 > span,
+div.comp-preview div.view div.head h3 > span,
+div.comp-preview div.view div.head p > span,
+div.comp-preview div.view div.body p > span,
+div.comp-preview div.view div.body li > span {
+  font-size: 1.4em;
+}
+div.comp-preview div.view div.head h3 {
+  border-bottom: solid 0.1em #505050;
+}
+
+/**/
+div.comp-preview .text_cols1 {
+  text-align: left;
+}
+div.comp-preview .text_cols2 {
+  text-align: left;
+  /*count*/
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  /*gap*/
+  column-gap: 2em;
+  /*fill*/
+  -webkit-break-inside: auto; /* TODO: unknown property? */
+  -moz-break-inside: auto; /* TODO: unknown property? */
+  break-inside: auto;
+}
+
+div.comp-preview .xxx {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+@media print {
+
+  /**/
+  div#header {
+    display: none;
+  }
+  div#content div.nav {
+    display: none;
+  }
+  div#footer {
+    display: none;
+  }
+
+  /**/
+  div.comp-preview {
+    font-family: serif;
+    font-weight: normal;
+  }
+
+  /**/
+  div.comp-preview > div.sub-header {
+    display: block;
+  }
+
+  /**/
+  div.comp-preview > div.sub-footer {
+    display: block;
+
+  }
+
+}
+

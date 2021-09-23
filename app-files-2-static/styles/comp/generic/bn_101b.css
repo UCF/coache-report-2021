@@ -1,0 +1,58 @@
+/* Menu for Inst-Survey-Section page */
+
+div.bn101 {
+
+}
+div.bn101 div.body {
+    width: 60em;
+}
+
+/* group */
+div.bn101 div.body.analyses div.group {
+    padding: 0.5em 0 0 0;
+}
+div.bn101 div.body.analyses div.group ul,
+div.bn101 div.body.analyses div.group p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* group heading */
+div.bn101 div.body.analyses h3 {
+    border-bottom: solid 1px #ddd;
+}
+
+/* group links */
+div.bn101 div.body.analyses ul {
+    padding: 0 0 0 1em;
+    width: 30%;
+}
+div.bn101 div.body.analyses li {
+    list-style-type: none;
+}
+div.bn101 div.body.analyses li.link {
+    padding: 0 0 0 0;
+}
+div.bn101 div.body.analyses li.link a {
+    display: block;
+    color: #ac1b33;
+    padding: 0.5em 0.5em;
+    border-bottom: solid 1px #ddd;
+    text-decoration: none;
+
+}
+div.bn101 div.body.analyses li.link a:hover {
+    color: #000;
+}
+div.bn101 div.body.analyses li.link a > span {
+    font-size: 1em;
+}
+
+/* group intro */
+div.bn101 div.body.analyses p {
+    padding: 0 0 0 1em;
+    width: 65%;
+}
+div.bn101 div.body.analyses p > span {
+    font-size: 1em;
+}

@@ -1,0 +1,64 @@
+/* Guide Note */
+
+/**/
+div.comp-g-note {
+  position: relative;
+  width: 100%; height: auto;
+}
+
+/* Note 101 */
+div.comp-g-note div.note101 img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+
+/* Note 105 */
+div.comp-g-note div.note105 {
+  font-size: 17px;
+  position: relative;
+  margin: auto;
+  width: 90%;
+}
+
+/* Note 107 */
+div.comp-g-note div.note107 {
+  position: relative;
+  margin: auto;
+  width: 95%;
+  display: flex; flex-flow: row nowrap;
+}
+
+div.comp-g-note div.note107 div.image {
+  flex-grow: 1;
+  position: relative;
+  display: flex; flex-flow: row nowrap; align-items: center;
+  margin-right: 20px;
+}
+div.comp-g-note div.note107 div.image > img {
+  display: block;
+  width: 121px; height: 370px;
+}
+div.comp-g-note div.note107 div.image > div {
+  display: flex; flex-flow: column nowrap;
+}
+div.comp-g-note div.note107 div.image > div > div {
+  margin: 10px 10px;
+}
+div.comp-g-note div.note107 div.image > div > div > span {
+  display: block;
+  margin: 7px 0 7px;
+  width: max-content; width: -moz-max-content;
+}
+div.comp-g-note div.note107 div.text {
+  position: relative;
+  display: flex; flex-flow: column; justify-content: center;
+}
+div.comp-g-note div.note107 div.text p {
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+}
+div.comp-g-note div.note107 div.text p span.nbsp {
+  white-space: nowrap;
+}

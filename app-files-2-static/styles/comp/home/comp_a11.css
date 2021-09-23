@@ -1,0 +1,42 @@
+/* List of Project Periods */
+
+div.comp_a11 {
+    width: auto; height: auto;
+}
+div.comp_a11 > div {
+    text-align: center;
+}
+div.comp_a11 div.head {
+}
+div.comp_a11 div.body {
+}
+div.comp_a11 div.body ul {
+    margin: auto;
+    padding: 0;
+    width: 400px;
+    list-style: none;
+    text-align: center;
+}
+div.comp_a11 div.body li {
+    display: inline-block;
+}
+div.comp_a11 div.body li a {
+    display: inline-block;
+    margin: 5px 0;
+    padding: 10px;
+    text-decoration: none;
+    /*border-bottom: solid 1px #ddd;*/
+}
+div.comp_a11 div.body li a span {
+    font-size: 25px;
+    font-weight: lighter;
+    /*color: #ac1b33;*/
+}
+div.comp_a11 div.body li a:hover {
+}
+div.comp_a11 div.body li a:hover span {
+    color: #000;
+}
+div.comp_a11 div.body li:last-of-type a {
+    /*border: none;*/
+}

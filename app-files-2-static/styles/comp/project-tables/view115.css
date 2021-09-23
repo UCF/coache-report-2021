@@ -1,0 +1,126 @@
+/* --- View 115: Freqencies --- */
+
+/* --- Chart --- */
+div#view115 div.chart {
+    position: relative; 
+    width: auto; height: auto;
+}
+
+
+/* --- Results --- */
+div#view115 div.chart div.results {
+    position: relative; 
+    width: 100%; height: auto;
+    overflow-x: scroll;
+}
+
+/* --- Fixed label --- */
+div#view115 div.chart div#fixedLabel {
+    position: absolute; top: 0; left: 0;
+    background: white;
+    /*padding-bottom: 4.6em;*/
+    /**/border-right: solid 1px lightgray;
+}
+
+
+
+/* --- THead and Values --- */
+
+div#view115 table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+div#view115 table td div {
+    font-size: 0.9em;
+    padding: 3px 0;
+}
+
+/* Label */
+/* ..Col 1: item code */
+div#view115 table.thead td.item_id div, 
+div#view115 table.values td.item_id div {
+    width: 70px;
+    padding-left: 3px;
+}
+/* ..Col 2: item bm */
+div#view115 table.thead td.item_bm div, 
+div#view115 table.values td.item_bm div {
+    width: 200px;
+    padding-left: 3px;
+}
+/* ..Col 2: item scale */
+div#view115 table.thead td.item_scale div, 
+div#view115 table.values td.item_scale div {
+    width: 100px;
+    padding-left: 3px;
+}
+/* ..Col 2: item name */
+div#view115 table.thead td.item_name div, 
+div#view115 table.values td.item_name div {
+    width: 250px;
+    padding-left: 3px;
+}
+/* ..Col 2: item ao */
+div#view115 table.thead td.item_ao div, 
+div#view115 table.values td.item_ao div {
+    width: 200px;
+    padding-left: 3px;
+}
+/* Cols: results */
+div#view115 table.thead tr.row3 td.ag div,
+div#view115 table.values td.ag div {
+    width: 50px;
+    text-align: center;
+}
+
+
+/* --- Thead only --- */
+
+div#view115 table.thead td div {
+    font-weight: bold;
+}
+div#view115 table.thead tr.row1 td div,
+div#view115 table.thead tr.row2 td div {
+    text-align: center;
+}
+div#view115 table.thead tr.row1 td div { /* ag head */
+    background: #e6e6e6;
+}
+div#view115 table.thead.bottom { /* thead at bottom */
+    /*margin-bottom: 1em;*/
+}
+
+
+/* --- Values only --- */
+
+/* Rows */
+div#view115 table.values tr:nth-child(odd) {
+    background: #e6e6e6;
+}
+div#view115 table.values tr:nth-child(even) {
+    background: #fff;
+}
+
+
+/* --- Borders --- */
+
+/* Thead bottom border: Red */
+div#view115 table.thead tr.row3 td {
+    border-bottom: solid 0.13em crimson;
+}
+/* Stats set border: Gray */
+div#view115 table.thead tr.row3 td.ag.percent,
+div#view115 table.values td.ag.percent {
+    border-right: dotted 0.1em silver;
+}
+
+/* AG crimson borders */
+div#view115 table.thead tr.row3 td.peer-5.percent,
+div#view115 table.values td.peer-5.percent {
+    border-right: solid 0.13em crimson;
+}
+div#view115 table.thead tr.row3 td.peer-5.percent:last-child,
+div#view115 table.values td.peer-5.percent:last-child {
+    border-right: none;
+}
+

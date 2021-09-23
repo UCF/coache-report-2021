@@ -1,0 +1,35 @@
+/* ba109 */
+
+div.ba109 {
+    width: 85%;
+}
+
+div.ba109 > div.body > div.text {
+    position: relative;
+}
+div.ba109 > div.body > div.text ul  {
+    position: relative;
+    margin: 0;
+    list-style-type: none;
+}
+div.ba109 > div.body > div.text ul.toc {
+    padding-left: 0;
+}
+
+div.ba109 > div.body > div.text ul li  {
+    position: relative;
+    margin-top: 1em;
+}
+div.ba109 > div.body > div.text ul li.pny {
+    /*border-bottom: dotted 1px gray;*/
+}
+div.ba109 > div.body > div.text ul li span.title {
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+    background: #fff;
+}
+div.ba109 > div.body > div.text ul li span.page  {
+    display: block;
+    position: absolute; right: 0; bottom: 0;
+}
+

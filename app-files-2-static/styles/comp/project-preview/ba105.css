@@ -1,0 +1,26 @@
+/* ba105 */
+
+div.ba105 {
+
+}
+
+div.ba105 > div.body > div {
+    display: inline-block;
+    vertical-align: top;
+}
+div.ba105 > div.body > div.left {
+    width: 48%;
+    padding-right: 3%;
+}
+div.ba105 > div.body > div.right {
+    width: 48%;
+}
+div.ba105 > div.body > div.right ul {
+    padding-left: 1.5em;
+}
+div.ba105 > div.body > div.right ul li {
+    margin-left: 0;
+    margin-bottom: 0.5em;
+}
+
+

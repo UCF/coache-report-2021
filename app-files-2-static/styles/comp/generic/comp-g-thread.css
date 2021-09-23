@@ -1,0 +1,53 @@
+/* Thread */
+
+
+/* General */
+div.comp-g-thread {
+  font-size: 16px;
+}
+div.comp-g-thread > div.head {
+  position: relative;
+}
+div.comp-g-thread > div.head h3 {
+  text-align: left;
+}
+div.comp-g-thread > div.body {
+  position: relative;
+  text-align: left;
+}
+div.comp-g-thread > div.body h5 {
+  text-decoration: underline;
+
+}
+div.comp-g-thread > div.body li {
+  margin-bottom: 5px;
+}
+div.comp-g-thread .ribbon {
+  text-align: right;
+}
+
+
+/* analyses/benchmarks/at-glance */
+div.comp-g-thread[data-thread-id="analyses/benchmarks/at-glance"] div.body img.guide {
+  float: left;
+  width: 70%;
+  max-width: 430px;
+  padding-right: 10px;
+}
+
+/* analyses/benchmarks/dashboard */
+div.comp-g-thread[data-thread-id="analyses/benchmarks/dashboard"] span.arrow {
+  font-size: 0.8em;
+}
+div.comp-g-thread[data-thread-id="analyses/benchmarks/dashboard"] span.highlight {
+  padding: 1px 2px;
+}
+div.comp-g-thread[data-thread-id="analyses/benchmarks/dashboard"] img.guide {
+  width: 100%;
+  max-width: 1000px;
+}
+
+/* tables */
+div.comp-g-thread[data-thread-id="tables"] div.comp-g-video {
+  min-width: 650px;
+}

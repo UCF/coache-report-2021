@@ -1,0 +1,33 @@
+/* Project - Preview - [One Page] */
+
+
+div.comp-preview > div.sub-header {
+  display: none;
+}
+
+div.comp-preview > div.sub-footer {
+  display: none;
+}
+
+
+@media print {
+
+  div#content > div.core {
+    padding-top: 0;
+  }
+
+  div.comp-preview > div.sub-header {
+    display: block;
+    padding-top: 30px;
+  }
+
+  div.comp-preview div.sub-content {
+    padding-top: 30px;
+  }
+
+  div.comp-preview > div.sub-footer {
+    display: block;
+
+  }
+
+}

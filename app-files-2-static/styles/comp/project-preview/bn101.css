@@ -1,0 +1,36 @@
+/* bn101 - navigation */
+
+div#bn101 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+div#bn101 a {
+    font-size: 16px;
+    padding: 3px 8px;
+    color: #000;
+    text-decoration: none;
+}
+
+div#bn101 a:not(.this) {
+    background: skyblue;
+}
+div#bn101 a:not(.this):hover {
+    background: lightblue;
+}
+
+div#bn101 a.step {
+    background: deepskyblue;
+}
+div#bn101 a.step:not(.this):hover {
+    background: lightblue;
+}
+
+div#bn101 a.this {
+    background: #bbb;
+}
+
+
+
+
+
